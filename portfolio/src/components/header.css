@@ -1,0 +1,27 @@
+.header {
+    background: rgba(0, 0, 0, 0.27);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.7px);
+    -webkit-backdrop-filter: blur(6.7px);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.logo-text {
+  font-size: 2em;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: black;
+}
+
+.align-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-background {
+    background: none !important;
+    backdrop-filter: none !important;
+  }
