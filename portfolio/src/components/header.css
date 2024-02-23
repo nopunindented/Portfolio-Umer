@@ -33,6 +33,18 @@
   }
 }
 
+@media (max-width: 639px) {
+  .name_navbar {
+    font-size: 60%; /* Adjust the maximum width for smaller screens */
+  }
+}
+
+@media (max-width: 562px) {
+  .name_navbar {
+    font-size: 57%; /* Adjust the maximum width for smaller screens */
+  }
+}
+
 .work_navbar {
   position: relative;
   top: 30%;
@@ -44,6 +56,18 @@
 @media (max-width: 869px) {
   .work_navbar {
     font-size: 70%; /* Adjust the maximum width for smaller screens */
+  }
+}
+
+@media (max-width: 639px) {
+  .work_navbar {
+    font-size: 60%; /* Adjust the maximum width for smaller screens */
+  }
+}
+
+@media (max-width: 562px) {
+  .work_navbar {
+    font-size: 57%; /* Adjust the maximum width for smaller screens */
   }
 }
 
@@ -61,6 +85,18 @@
   }
 }
 
+@media (max-width: 639px) {
+  .projects_navbar {
+    font-size: 60%; /* Adjust the maximum width for smaller screens */
+  }
+}
+
+@media (max-width: 562px) {
+  .projects_navbar {
+    font-size: 57%; /* Adjust the maximum width for smaller screens */
+  }
+}
+
 .extra_navbar {
   position: relative;
   top: 30%;
@@ -75,3 +111,17 @@
     font-size: 70%; /* Adjust the maximum width for smaller screens */
   }
 }
+
+@media (max-width: 639px) {
+  .extra_navbar {
+    font-size: 60%; /* Adjust the maximum width for smaller screens */
+  }
+}
+
+@media (max-width: 562px) {
+  .extra_navbar {
+    font-size: 57%; /* Adjust the maximum width for smaller screens */
+  }
+}
+
+/* 539px width is what we will have as the max-width before hamburger menu is placed */
