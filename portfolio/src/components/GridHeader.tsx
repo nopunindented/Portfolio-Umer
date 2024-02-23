@@ -1,6 +1,31 @@
 import React from "react";
-import { AppBar, Toolbar, Typography, Button } from "@mui/material";
+import { useState, useEffect } from 'react';
 import "./header.css";
+
+interface ScreenSizeState {
+  width: number;
+}
+
+
+const ScreenSize: () => number = () => {
+
+  const [screenSize, setScreenSize] = useState<ScreenSizeState>({ width: window.innerWidth });
+  
+  useEffect(() => {
+    const handleResize = () => {
+      setScreenSize(
+        {
+          width: window.innerWidth
+        });
+    }
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+  }
 
 const GridHeader: React.FC = () => {
     return (
