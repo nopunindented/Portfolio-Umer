@@ -29,13 +29,14 @@
 }
 
 /* Name media query */
-@media (max-width: 869px) {
+
+@media (max-width: 1024px) {
   .name_navbar {
     font-size: 70%; /* Adjust the maximum width for smaller screens */
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 869px) {
   .name_navbar {
     font-size: 60%; /* Adjust the maximum width for smaller screens */
   }
@@ -56,13 +57,13 @@
 }
 
 /* Work media query */
-@media (max-width: 869px) {
+@media (max-width: 1024px) {
   .work_navbar {
     font-size: 70%; /* Adjust the maximum width for smaller screens */
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 869px) {
   .work_navbar {
     font-size: 60%; /* Adjust the maximum width for smaller screens */
   }
@@ -83,13 +84,13 @@
 }
 
 /* Projects media query */
-@media (max-width: 869px) {
+@media (max-width: 1024px) {
   .projects_navbar {
     font-size: 70%; /* Adjust the maximum width for smaller screens */
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 869px) {
   .projects_navbar {
     font-size: 60%; /* Adjust the maximum width for smaller screens */
   }
@@ -111,13 +112,13 @@
 }
 
 /* Extra media query */
-@media (max-width: 869px) {
+@media (max-width: 1024px) {
   .extra_navbar {
     font-size: 70%; /* Adjust the maximum width for smaller screens */
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 869px) {
   .extra_navbar {
     font-size: 60%; /* Adjust the maximum width for smaller screens */
   }
