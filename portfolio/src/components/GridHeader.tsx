@@ -7,6 +7,10 @@ interface ScreenSizeState {
   width: number;
 }
 
+interface ScreenSizeState {
+  width: number;
+}
+
 const GridHeader: React.FC = () => {
 
   const [screenSize, setScreenSize] = useState<ScreenSizeState>({ width: window.innerWidth });
@@ -25,7 +29,7 @@ const GridHeader: React.FC = () => {
       window.removeEventListener('resize', handleResize);
     };
   }, []);
-
+  
   return (
     <div className="wrapper">
       <div className="name_navbar">Muhammad Umer Fiaz</div>
@@ -41,6 +45,5 @@ const GridHeader: React.FC = () => {
     </div>
   );
       }
-  
   
   export default GridHeader;
