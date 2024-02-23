@@ -5,9 +5,9 @@ import "./header.css";
 const GridHeader: React.FC = () => {
     return (
         <div className="wrapper">
-            <div className="">Muhammad Umer Fiaz</div>
-            <div className="marginedone">Two</div>
-            <div className="marginedtwo">Three</div>
+            <div className="name_navbar">Muhammad Umer Fiaz</div>
+            <div className="work_navbar">Work Experience</div>
+            <div className="projects_navbar">Projects</div>
       </div>
     );
   };
