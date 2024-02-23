@@ -5,9 +5,9 @@
   height: 6%; /* Set the height of the rectangle */
   left: 20%;
 
-  background: rgba(57, 57, 57, 0.27);
-  backdrop-filter: blur(0.5px);
-  margin-top: 20px;
+  background: rgba(41, 41, 41, 0.27);
+  backdrop-filter: blur(0.7px);
+  margin-top: 12px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
 
@@ -26,11 +26,25 @@
   padding-right: 5px;
 }
 
+/* Name media query */
+@media (max-width: 768px) {
+  .name_navbar {
+    font-size: 70%; /* Adjust the maximum width for smaller screens */
+  }
+}
+
 .work_navbar {
   position: relative;
   top: 30%;
   margin-right: 10px;
   margin-left: 2px;
+}
+
+/* Work media query */
+@media (max-width: 768px) {
+  .work_navbar {
+    font-size: 70%; /* Adjust the maximum width for smaller screens */
+  }
 }
 
 .projects_navbar {
@@ -40,10 +54,24 @@
   margin-left: 10px;
 }
 
+/* Projects media query */
+@media (max-width: 768px) {
+  .projects_navbar {
+    font-size: 70%; /* Adjust the maximum width for smaller screens */
+  }
+}
+
 .extra_navbar {
   position: relative;
   top: 30%;
   left: -20%;
   margin-right: 10px;
   margin-left: 10px;
+}
+
+/* Extra media query */
+@media (max-width: 768px) {
+  .extra_navbar {
+    font-size: 70%; /* Adjust the maximum width for smaller screens */
+  }
 }
