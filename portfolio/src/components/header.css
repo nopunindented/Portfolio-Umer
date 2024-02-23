@@ -13,6 +13,7 @@
 
   /* Grid template for main container */
   display: grid;
+  font-family: "Fira Code";
   font-size: 90%;
   grid-template-columns: 2.2fr 1.35fr 1.1fr 1fr;
   grid-template-rows: 1fr;
@@ -22,6 +23,7 @@
 .name_navbar {
   position: relative;
   top: 30%;
+  color: white;
   padding-left: 5px;
   padding-right: 5px;
 }
@@ -33,45 +35,52 @@
   }
 }
 
-.work_navbar {
-  position: relative;
-  top: 30%;
-  margin-right: 10px;
-  margin-left: 2px;
+@media (max-width: 768px) {
+  .name_navbar {
+    font-size: 60%; /* Adjust the maximum width for smaller screens */
+  }
 }
 
-/* Work media query */
-@media (max-width: 869px) {
+@media (max-width: 562px) {
+  .name_navbar {
+    font-size: 57%; /* Adjust the maximum width for smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
   .work_navbar {
-    font-size: 70%; /* Adjust the maximum width for smaller screens */
+    font-size: 60%; /* Adjust the maximum width for smaller screens */
   }
 }
 
-.projects_navbar {
-  position: relative;
-  top: 30%;
-  margin-right: 15px;
-  margin-left: 10px;
+@media (max-width: 562px) {
+  .work_navbar {
+    font-size: 57%; /* Adjust the maximum width for smaller screens */
+  }
 }
 
-/* Projects media query */
-@media (max-width: 869px) {
+@media (max-width: 768px) {
   .projects_navbar {
-    font-size: 70%; /* Adjust the maximum width for smaller screens */
+    font-size: 60%; /* Adjust the maximum width for smaller screens */
   }
 }
 
-.extra_navbar {
-  position: relative;
-  top: 30%;
-  left: -20%;
-  margin-right: 10px;
-  margin-left: 10px;
+@media (max-width: 562px) {
+  .projects_navbar {
+    font-size: 57%; /* Adjust the maximum width for smaller screens */
+  }
 }
 
-/* Extra media query */
-@media (max-width: 869px) {
+@media (max-width: 768px) {
   .extra_navbar {
-    font-size: 70%; /* Adjust the maximum width for smaller screens */
+    font-size: 60%; /* Adjust the maximum width for smaller screens */
   }
 }
+
+@media (max-width: 562px) {
+  .extra_navbar {
+    font-size: 57%; /* Adjust the maximum width for smaller screens */
+  }
+}
+
+/* 540px width is what we will have as the max-width before hamburger menu is placed */
