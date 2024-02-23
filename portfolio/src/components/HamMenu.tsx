@@ -1,17 +1,15 @@
-import React from "react";
-import "./header.css";
-import Hamburger from 'hamburger-react'
-import { useState} from 'react';
+import React, { useState } from "react";
+import Hamburger from "hamburger-react";
 
-const HamMenu : React.FC = () => {
 
-    const [isOpen, setOpen] = useState<boolean>(false)
+const HamMenu: React.FC = () => {
+  const [isOpen, setOpen] = useState<boolean>(false);
 
-    return (
-        <div>
-            <Hamburger toggled={isOpen} toggle={setOpen} />
-        </div>
-    )
-}
+  return (
+    <div>
+      <Hamburger color="white" toggled={isOpen} toggle={setOpen} />
+    </div>
+  );
+};
 
 export default HamMenu;
