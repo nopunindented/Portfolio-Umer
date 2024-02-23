@@ -1,8 +1,30 @@
 import React from "react";
-import { AppBar, Toolbar, Typography, Button } from "@mui/material";
+import { useState, useEffect } from 'react';
 import "./header.css";
 
+interface ScreenSizeState {
+  width: number;
+}
+
 const GridHeader: React.FC = () => {
+
+  const [screenSize, setScreenSize] = useState<ScreenSizeState>({ width: window.innerWidth });
+
+  useEffect(() => {
+    const handleResize = () => {
+      setScreenSize(
+        {
+          width: window.innerWidth
+        });
+    }
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
     return (
         <div className="wrapper">
             <div className="name_navbar">Muhammad Umer Fiaz</div>
