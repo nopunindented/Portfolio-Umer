@@ -33,7 +33,7 @@ const GridHeader: React.FC = () => {
   return (
     <div className="wrapper">
       <div className="name_navbar">Muhammad Umer Fiaz</div>
-      {screenSize.width > 540 ? (
+      {screenSize.width > 550 ? (
         <>
           <div className="work_navbar">Work Experience</div>
           <div className="projects_navbar">Projects</div>
