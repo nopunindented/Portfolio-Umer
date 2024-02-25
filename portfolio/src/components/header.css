@@ -195,5 +195,5 @@
   color: white;
   padding-left: 5px;
   padding-right: 5px;
-  justify-self: start; /* Align to the start of the grid area */
+  justify-self: start;
 }
