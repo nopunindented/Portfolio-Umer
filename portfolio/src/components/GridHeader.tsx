@@ -38,9 +38,12 @@ const GridHeader: React.FC = () => {
           <div className="extra_navbar">Extracurriculars</div>
         </>
       ) : (
+        <>
+        <div className={`name_navbar_hamburger ${isOpen ? 'open' : ''}`}>Muhammad Umer Fiaz</div>
         <div className={`hamburger-position ${isOpen ? 'open' : ''}`}>
           <Hamburger color="white" size={16} toggled={isOpen} toggle={setOpen} />
         </div>
+        </>
       )}
     </div>
   );
