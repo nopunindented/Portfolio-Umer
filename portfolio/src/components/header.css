@@ -20,6 +20,10 @@
   grid-auto-rows: 150px;
 }
 
+.wrapper.open {
+  height: 30%; /* Adjust the height when open */
+}
+
 .name_navbar {
   position: relative;
   top: 30%;
@@ -133,3 +137,14 @@
 /* 550px width is what we will have as the max-width before hamburger menu is placed */
 
 /* Hamburger menu and all of its classes are after this comment */
+
+.hamburger-position {
+  position: absolute;
+  top: -16%;
+  right: 0%;
+}
+
+.hamburger-position.open {
+  position: absolute;
+  top: -5%;
+}

@@ -1,7 +1,5 @@
-import React from "react";
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "./header.css";
-import HamMenu from "./HamMenu";
 import Hamburger from "hamburger-react";
 
 interface ScreenSizeState {
@@ -29,25 +27,19 @@ const GridHeader: React.FC = () => {
   }, []);
 
   return (
-    <div className="wrapper">
-      <div className="name_navbar">Muhammad Umer Fiaz</div>
+    <div
+      className={`wrapper ${isOpen ? 'open' : ''}`}
+    >
       {screenSize.width > 550 ? (
         <>
+          <div className="name_navbar">Muhammad Umer Fiaz</div>
           <div className="work_navbar">Work Experience</div>
           <div className="projects_navbar">Projects</div>
           <div className="extra_navbar">Extracurriculars</div>
         </>
       ) : (
-        <div
-          className="hamburger-position"
-          style={{ position: "absolute", top: "-16%", right: "0%" }}
-        >
-          <Hamburger
-            color="white"
-            size={16}
-            toggled={isOpen}
-            toggle={setOpen}
-          />
+        <div className={`hamburger-position ${isOpen ? 'open' : ''}`}>
+          <Hamburger color="white" size={16} toggled={isOpen} toggle={setOpen} />
         </div>
       )}
     </div>
