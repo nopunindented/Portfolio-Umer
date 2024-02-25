@@ -14,9 +14,15 @@ const GridHeader: React.FC = () => {
 
   useEffect(() => {
     const handleResize = () => {
+      const newWidth = window.innerWidth;
       setScreenSize({
-        width: window.innerWidth,
+        width: newWidth,
       });
+
+      // Close the hamburger menu if screen size is greater than 550
+      if (newWidth > 550 && isOpen) {
+        setOpen(false);
+      }
     };
 
     window.addEventListener("resize", handleResize);
@@ -24,12 +30,10 @@ const GridHeader: React.FC = () => {
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  }, []);
+  }, [isOpen]); // Add isOpen as a dependency to avoid stale closure
 
   return (
-    <div
-      className={`wrapper ${isOpen ? 'open' : ''}`}
-    >
+    <div className={`wrapper ${isOpen ? "open" : ""}`}>
       {screenSize.width > 550 ? (
         <>
           <div className="name_navbar">Muhammad Umer Fiaz</div>
@@ -39,10 +43,26 @@ const GridHeader: React.FC = () => {
         </>
       ) : (
         <>
-        <div className={`name_navbar_hamburger ${isOpen ? 'open' : ''}`}>Muhammad Umer Fiaz</div>
-        <div className={`hamburger-position ${isOpen ? 'open' : ''}`}>
-          <Hamburger color="white" size={16} toggled={isOpen} toggle={setOpen} />
-        </div>
+          <div className={`name_navbar_hamburger ${isOpen ? "open" : ""}`}>
+            Muhammad Umer Fiaz
+            {isOpen ? (
+              <>
+                <div
+                  className={`work_navbar_hamburger ${isOpen ? "open" : ""}`}
+                >
+                  Work Experience
+                </div>
+              </>
+            ) : null}
+          </div>
+          <div className={`hamburger-position ${isOpen ? "open" : ""}`}>
+            <Hamburger
+              color="white"
+              size={16}
+              toggled={isOpen}
+              toggle={setOpen}
+            />
+          </div>
         </>
       )}
     </div>
