@@ -52,6 +52,16 @@ const GridHeader: React.FC = () => {
                 >
                   Work Experience
                 </div>
+                <div
+                  className={`projects_navbar_hamburger ${isOpen ? "open" : ""}`}
+                >
+                  Projects
+                </div>
+                <div
+                  className={`extra_navbar_hamburger ${isOpen ? "open" : ""}`}
+                >
+                  Extracurriculars
+                </div>
               </>
             ) : null}
           </div>

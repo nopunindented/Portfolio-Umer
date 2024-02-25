@@ -190,7 +190,29 @@
 .work_navbar_hamburger.open {
   position: relative;
   font-size: 97%;
-  top: 20%;
+  top: 19%;
+  left: -4.4%;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  justify-self: start;
+}
+
+.projects_navbar_hamburger.open {
+  position: relative;
+  font-size: 97%;
+  top: 34.5%;
+  left: -4.4%;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  justify-self: start;
+}
+
+.extra_navbar_hamburger.open {
+  position: relative;
+  font-size: 97%;
+  top: 49%;
   left: -4.4%;
   color: white;
   padding-left: 5px;
