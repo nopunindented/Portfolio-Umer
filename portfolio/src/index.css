@@ -1,7 +1,6 @@
 body {
   margin: 0;
-  height: 100vh; /* Set body height to 100vh */
-  width: 100%;
+  height: 1000px;
   background-color: black;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -19,7 +18,6 @@ code {
 .bg {
   background: linear-gradient(-45deg, #000000, #000000, #790ad4, #000000);
   background-size: 400% 400%;
-  width: 100%;
   animation: gradient 20s ease infinite;
   height: 100vh;
   display: grid;
@@ -39,35 +37,6 @@ code {
   }
 }
 
-@media (max-width: 600px) {
-  .bg {
-    width: 130%;
-  }
-}
-
-@media (max-width: 462px) {
-  .bg {
-    width: 140%;
-  }
-}
-
-@media (max-width: 430px) {
-  .bg {
-    width: 150%;
-  }
-}
-
-@media (max-width: 400px) {
-  .bg {
-    width: 160%;
-  }
-}
-
-@media (max-width: 375px) {
-  .bg {
-    width: 190%;
-  }
-}
 /* SlideAnimation.tsx Classes and styling, ending*/
 
 /* TypingIntro.tsx Classes and styling begins after this */
@@ -81,7 +50,7 @@ code {
   white-space: nowrap;
   margin: 0 auto;
   font-size: 300%;
-  width: 39%;
+  width: 30%;
   letter-spacing: 0.15em;
   animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
@@ -92,7 +61,7 @@ code {
     width: 0;
   }
   to {
-    width: 39%;
+    width: 100%;
   }
 }
 

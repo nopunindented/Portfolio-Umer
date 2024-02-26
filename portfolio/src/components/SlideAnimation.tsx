@@ -5,7 +5,6 @@ const SlideAnimation: React.FC = () => {
   return (
     <>
       <div className="bg">
-        <TypingIntro />
       </div>
     </>
   );
