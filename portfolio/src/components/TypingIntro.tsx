@@ -4,7 +4,7 @@ const TypingIntro: React.FC = () => {
   return (
     <>
       <div className="typewriter">
-        <h1>Hi there, my name is</h1>
+        <h1>Hey there, my name is</h1>
       </div>
     </>
   );
