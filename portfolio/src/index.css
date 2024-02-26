@@ -55,8 +55,7 @@ code {
   border-right: 0.15em solid orange;
   white-space: nowrap;
   margin: 0 auto;
-  font-size: 300%;
-  width: 30%;
+  font-size: 100%;
   letter-spacing: 0.15em;
   animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
