@@ -22,8 +22,8 @@ code {
   background-size: 400% 400%;
   animation: gradient 20s ease infinite;
   height: 100vh;
-  grid-template-columns: 2.9fr 1.35fr 1.1fr 1fr;
-  grid-template-rows: 1;
+  grid-template-columns: 2.2fr 1.35fr 1.1fr 1fr;
+  grid-template-rows: 0.1fr 1fr;
 }
 
 @keyframes gradient {
@@ -43,21 +43,32 @@ code {
 /* TypingIntro.tsx Classes and styling begins after this */
 
 .typewriter-container {
-  grid-column: 1 / span 4; /* Span across all columns */
+  display: grid;
+  font-size: 80%;
+  font-family: "Fira Code";
+  font-weight: 1%;
+  position: relative;
+  top: 110%;
+  left: 52.5%;
+  grid-template-columns: 0.2fr;
+  grid-column: 1; /* Span across all columns */
+  grid-template-rows: 1fr;
   grid-row: 1; /* Place in the first row */
 }
 
 .typewriter h1 {
-  color: rgb(255, 255, 255);
+  color: rgb(225, 136, 226);
   position: relative;
   top: 70%;
+  font-size: 50%;
   overflow: hidden;
+  width: fit-content;
   border-right: 0.15em solid orange;
   white-space: nowrap;
   margin: 0 auto;
   font-size: 100%;
   letter-spacing: 0.15em;
-  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  animation: typing 3.5s steps(30, end), blink-caret 0.75s step-end infinite;
 }
 
 /* The typing effect */
