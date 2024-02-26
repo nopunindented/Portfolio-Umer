@@ -15,14 +15,15 @@ code {
 }
 
 /* SlideAnimation.tsx Classes and styling after this */
+
 .bg {
+  display: grid;
   background: linear-gradient(-45deg, #000000, #000000, #790ad4, #000000);
   background-size: 400% 400%;
   animation: gradient 20s ease infinite;
   height: 100vh;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
+  grid-template-columns: 2.9fr 1.35fr 1.1fr 1fr;
+  grid-template-rows: 1;
 }
 
 @keyframes gradient {
@@ -40,6 +41,11 @@ code {
 /* SlideAnimation.tsx Classes and styling, ending*/
 
 /* TypingIntro.tsx Classes and styling begins after this */
+
+.typewriter-container {
+  grid-column: 1 / span 4; /* Span across all columns */
+  grid-row: 1; /* Place in the first row */
+}
 
 .typewriter h1 {
   color: rgb(255, 255, 255);
