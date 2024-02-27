@@ -23,7 +23,7 @@ code {
   animation: gradient 20s ease infinite;
   height: 100vh;
   grid-template-columns: 2.2fr 1.35fr 1.1fr 1fr;
-  grid-template-rows: 0.1fr 1fr;
+  grid-template-rows: 0.3fr 0.5fr 2fr;
 }
 
 @keyframes gradient {
@@ -65,7 +65,7 @@ code {
   width: fit-content;
   border-right: 0.15em solid rgb(255, 255, 255);
   white-space: nowrap;
-  font-size: 100%;
+  font-size: 140%;
   letter-spacing: 0.15em;
   animation-fill-mode: forwards;
   animation: typing 1.5s steps(30, end), blink-caret 0.75s step-end infinite;
@@ -101,3 +101,39 @@ code {
     border-color: rgb(255, 255, 255);
   }
 }
+
+.name_intro {
+  position: absolute;
+  font-size: 240%;
+  text-align: left;
+  left: 20.14%;
+  top: 30%;
+  width: 35%;
+  color: white;
+  grid-column: 1;
+  grid-row: 3;
+}
+
+@media (max-width: 768px) {
+  .name_intro {
+    font-size: 220%; /* Adjust the maximum width for smaller screens */
+    width: 55%;
+  }
+}
+
+@media (max-width: 669px) {
+  .name_intro {
+    font-size: 200%; /* Adjust the maximum width for smaller screens */
+    width: 55%;
+  }
+}
+
+@media (max-width: 550px) {
+  .name_intro {
+    font-size: 150%; /* Adjust the maximum width for smaller screens */
+    width: 45%;
+    left:23.14%
+  }
+}
+
+/* TypingIntro.tsx Classes and styling ends here */
