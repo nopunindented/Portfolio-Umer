@@ -155,7 +155,14 @@ code {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 375px) {
+  .name_intro {
+    font-size: 120%; /* Adjustthe maximum width for smaller screens */
+    width: 75%;
+  }
+}
+
+@media (max-width: 325px) {
   .name_intro {
     font-size: 120%; /* Adjust the maximum width for smaller screens */
     width: 82%;
