@@ -119,6 +119,18 @@ code {
   grid-row: 4;
 }
 
+@media (max-width: 1024px) {
+  .descript_intro {
+    font-size: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  .descript_intro {
+    font-size: 90%;
+  }
+}
+
 .name_intro {
   font-family: "Fira Code";
   position: absolute;
