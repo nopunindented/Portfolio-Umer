@@ -194,4 +194,34 @@ code {
 }
 /* TypingIntro.tsx Classes and styling ends here */
 
-/* SecondPage.tsx Classes and styling starts here */
+/* IconMenu.tsx Classes and styling starts here */
+
+.icon-menu {
+    /* Positioning */
+    position: fixed;
+    top:30%;
+    width: 4%; /* Set the width of the rectangle */
+    height: 20%; /* Set the height of the rectangle */
+  
+    background: rgba(41, 41, 41, 0.27);
+    backdrop-filter: blur(0.7px);
+    margin-top: 12px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    box-sizing: border-box;
+  
+    /* Grid template for main container */
+    display: grid;
+    font-family: "Fira Code";
+    font-size: 90%;
+    font-weight: 600;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.gitlogo {
+  position: relative;
+  width: 100%;
+}
