@@ -144,7 +144,21 @@ code {
 @media (max-width: 550px) {
   .name_intro {
     font-size: 150%; /* Adjust the maximum width for smaller screens */
-    width: 45%;
+    width: 62%;
+  }
+}
+
+@media (max-width: 425px) {
+  .name_intro {
+    font-size: 150%; /* Adjust the maximum width for smaller screens */
+    width: 72%;
+  }
+}
+
+@media (max-width: 425px) {
+  .name_intro {
+    font-size: 120%; /* Adjust the maximum width for smaller screens */
+    width: 82%;
   }
 }
 

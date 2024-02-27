@@ -4,7 +4,7 @@ const NameIntro: React.FC = () => {
   return (
     <>
       <div className="name_intro">
-        <h1>Muhammad Umer Fiaz</h1>
+        <h1>Muhammad Umer Fiaz!</h1>
       </div>
     </>
   );
