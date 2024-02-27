@@ -19,11 +19,12 @@ code {
 .bg {
   display: grid;
   background: linear-gradient(-45deg, #000000, #000000, #790ad4, #000000);
+  font-family: "Fira Code";
   background-size: 400% 400%;
   animation: gradient 20s ease infinite;
-  height: 100vh;
+  height: 120vh;
   grid-template-columns: 0.85fr 3fr 0.4fr;
-  grid-template-rows: 0.3fr 0.5fr 2fr;
+  grid-template-rows: 0.4fr 0.5fr 1.5fr 1fr;
 }
 
 @media (max-width: 425px) {
@@ -66,7 +67,6 @@ code {
 .typewriter h1 {
   color: rgb(225, 136, 226);
   position: relative;
-  top: 70%;
   font-family: "Arial";
   overflow: hidden;
   width: fit-content;
@@ -105,6 +105,18 @@ code {
   50% {
     border-color: rgb(255, 255, 255);
   }
+}
+
+.descript_intro {
+  font-family: "Fira Code";
+  position: relative;
+  font-size: 125%;
+  text-align: left;
+  width: 85%;
+  font-weight: 400;
+  color: white;
+  grid-column: 2;
+  grid-row: 4;
 }
 
 .name_intro {
@@ -168,5 +180,4 @@ code {
     width: 82%;
   }
 }
-
 /* TypingIntro.tsx Classes and styling ends here */
