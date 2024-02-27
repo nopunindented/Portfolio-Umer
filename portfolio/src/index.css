@@ -110,10 +110,10 @@ code {
 .descript_intro {
   font-family: "Fira Code";
   position: relative;
-  font-size: 125%;
+  font-size: 115%;
   text-align: left;
   width: 85%;
-  font-weight: 400;
+  font-weight: 600;
   color: white;
   grid-column: 2;
   grid-row: 4;
