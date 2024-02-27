@@ -22,8 +22,15 @@ code {
   background-size: 400% 400%;
   animation: gradient 20s ease infinite;
   height: 100vh;
-  grid-template-columns: 2.2fr 1.35fr 1.1fr 1fr;
+  grid-template-columns: 0.85fr 3fr 0.4fr;
   grid-template-rows: 0.3fr 0.5fr 2fr;
+}
+
+@media (max-width: 425px) {
+  .typewriter-container {
+    font-size: 57%; /* Adjust the maximum width for smaller screens */
+    left: 53.5%;
+  }
 }
 
 @keyframes gradient {
@@ -49,9 +56,9 @@ code {
   font-weight: 1%;
   position: relative;
   top: 110%;
-  left: 52.5%;
+  left: 0%;
   grid-template-columns: 0.2fr;
-  grid-column: 1; /* Span across all columns */
+  grid-column: 2; /* Span across all columns */
   grid-template-rows: 1fr;
   grid-row: 1; /* Place in the first row */
 }
@@ -74,14 +81,12 @@ code {
 @media (max-width: 425px) {
   .typewriter-container {
     font-size: 57%; /* Adjust the maximum width for smaller screens */
-    left: 53.5%;
   }
 }
 
 @media (max-width: 376px) {
   .typewriter-container {
     font-size: 57%; /* Adjust the maximum width for smaller screens */
-    left: 54%;
   }
 }
 
@@ -103,8 +108,9 @@ code {
 }
 
 .name_intro {
+  font-family: "Fira Code";
   position: absolute;
-  font-size: 240%;
+  font-size: 245%;
   text-align: left;
   left: 20.14%;
   top: 30%;
@@ -128,11 +134,17 @@ code {
   }
 }
 
+@media (max-width: 618px) {
+  .name_intro {
+    font-size: 180%; /* Adjust the maximum width for smaller screens */
+    width: 55%;
+  }
+}
+
 @media (max-width: 550px) {
   .name_intro {
     font-size: 150%; /* Adjust the maximum width for smaller screens */
     width: 45%;
-    left:23.14%
   }
 }
 

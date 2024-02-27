@@ -5,8 +5,8 @@ import NameIntro from "./NameIntro";
 const SlideAnimation: React.FC = () => {
   return (
     <>
-    <NameIntro />
       <div className="bg">
+        <NameIntro />
         <div className="typewriter-container">
           <TypingIntro />
         </div>
