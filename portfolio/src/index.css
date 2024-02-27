@@ -201,7 +201,7 @@ code {
     position: fixed;
     top:30%;
     width: 4%; /* Set the width of the rectangle */
-    height: 20%; /* Set the height of the rectangle */
+    height: 28%; /* Set the height of the rectangle */
   
     background: rgba(41, 41, 41, 0.27);
     backdrop-filter: blur(0.7px);
@@ -223,5 +223,23 @@ code {
 
 .gitlogo {
   position: relative;
-  width: 100%;
+  width: 99%;
+  grid-row: 1;
+}
+
+.linkedinlogo {
+  position: relative;
+  width: 86%;
+  top: 28%;
+  right: -7%;
+  grid-row: 2;
+}
+
+.emaillogo {
+  position: relative;
+  top: 40.5%;
+  width: 78%;
+  height: 58%;
+  right: -12%;
+  grid-row: 3;
 }
