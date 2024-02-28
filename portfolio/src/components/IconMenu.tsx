@@ -8,7 +8,7 @@ const IconMenu: React.FC = () => {
     <>
       <div className="icon-menu">
         <img src={gitlogo} className="gitlogo" alt="githublogo" />
-        <img src={linkedin} className="linkedinlogo" alt="linkedinlogo" />
+        <img src={linkedin} className="linkedinlogo glow-on-hover" alt="linkedinlogo" />
         <img src={email} className="emaillogo" alt="emaillogo" />
       </div>
     </>
