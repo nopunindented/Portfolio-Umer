@@ -272,7 +272,7 @@ code {
   background: #0c0c0c;
   height: 120vh;
   background-position: 0% 700%;
-  grid-template-columns: 0.85fr 3fr 0.4fr;
+  grid-template-columns: 0.4fr 3fr 0.4fr;
   grid-template-rows: 0.9fr 0.5fr 1fr 1fr;
 }
 
@@ -281,7 +281,7 @@ code {
   font-size: 500%;
   font-family: "Calibri", sans-serif;
   color: #ffffff;
-  left: -10%;
+  left: -0.5%;
   top: 35%;
 
   background: #b1b1b1;
@@ -290,4 +290,22 @@ code {
   background-clip: text;
   letter-spacing: 2px;
   grid-column: 2;
+}
+
+@media (max-width: 735px) {
+  .work-header {
+    font-size: 400%;
+  }
+}
+
+@media (max-width: 595px) {
+  .work-header {
+    font-size: 300%;
+  }
+}
+
+@media (max-width: 456px) {
+  .work-header {
+    font-size: 200%;
+  }
 }
