@@ -273,7 +273,7 @@ code {
   height: 120vh;
   background-position: 0% 700%;
   grid-template-columns: 0.85fr 3fr 0.4fr;
-  grid-template-rows: 0.4fr 0.5fr 1.5fr 1fr;
+  grid-template-rows: 0.6fr 0.5fr 1.5fr 1fr;
 }
 
 .work-header {
@@ -282,9 +282,9 @@ code {
   font-family: "Calibri", sans-serif;
   color: #ffffff;
   left: -10%;
-  top: 25%;
+  top: 35%;
 
-  background: linear-gradient(80.17deg, #FFFFFF 25.44%, rgba(255, 255, 255, 0) 110.02%);
+  background: #b1b1b1;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
