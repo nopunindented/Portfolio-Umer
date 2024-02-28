@@ -7,9 +7,15 @@ const IconMenu: React.FC = () => {
   return (
     <>
       <div className="icon-menu">
-        <img src={gitlogo} className="gitlogo glow-on-hover" alt="githublogo" />
-        <img src={linkedin} className="linkedinlogo glow-on-hover" alt="linkedinlogo" />
-        <img src={email} className="emaillogo glow-on-hover" alt="emaillogo" />
+        <a href="https://github.com/nopunindented">
+          <img src={gitlogo} className="gitlogo glow-on-hover" alt="githublogo"/>
+        </a>
+        <a href="https://www.linkedin.com/in/umer-fiaz/">
+          <img src={linkedin} className="linkedinlogo glow-on-hover" alt="linkedinlogo" />
+        </a>
+        <a href="mailto:mufiaz@ualberta.ca">
+          <img src={email} className="emaillogo glow-on-hover" alt="emaillogo" />
+        </a>
       </div>
     </>
   );

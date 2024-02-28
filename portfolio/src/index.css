@@ -199,7 +199,7 @@ code {
 .icon-menu {
     /* Positioning */
     position: fixed;
-    top:30%;
+    top:35%;
     width: 4%; /* Set the width of the rectangle */
     height: 28%; /* Set the height of the rectangle */
   
@@ -229,9 +229,9 @@ code {
 
 .linkedinlogo {
   position: relative;
-  width: 86%;
+  width: 86.5%;
   top: 28%;
-  right: -7%;
+  right: 0%;
   grid-row: 2;
 }
 
@@ -240,7 +240,7 @@ code {
   top: 40.5%;
   width: 78%;
   height: 58%;
-  right: -12%;
+  right: -1%;
   grid-row: 3;
 }
 
