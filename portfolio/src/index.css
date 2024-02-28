@@ -221,6 +221,19 @@ code {
     grid-row: 3;
 }
 
+@media (max-width: 768px) {
+  .icon-menu {
+    width: 7%;
+  }
+}
+
+@media (max-width: 425px) {
+  .icon-menu {
+    width: 7%;
+    top: 30%;
+  }
+}
+
 .gitlogo {
   position: relative;
   width: 99%;
