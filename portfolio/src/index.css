@@ -268,7 +268,26 @@ code {
 /* SecondPage.tsx Classes and styling starts here */
 
 .second-page {
+  display: grid;
   background: #0c0c0c;
   height: 120vh;
   background-position: 0% 700%;
+  grid-template-columns: 0.85fr 3fr 0.4fr;
+  grid-template-rows: 0.4fr 0.5fr 1.5fr 1fr;
+}
+
+.work-header {
+  position: relative;
+  font-size: 500%;
+  font-family: "Calibri", sans-serif;
+  color: #ffffff;
+  left: -10%;
+  top: 25%;
+
+  background: linear-gradient(80.17deg, #FFFFFF 25.44%, rgba(255, 255, 255, 0) 110.02%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: 2px;
+  grid-column: 2;
 }
