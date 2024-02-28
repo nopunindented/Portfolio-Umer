@@ -6,12 +6,12 @@ import GridHeader from "./components/GridHeader";
 
 function App() {
   return (
-    <div>
-      <GridHeader />
+    <>
+    <GridHeader />
       <div className="App">
         <HomePage />
       </div>
-    </div>
+    </>
   );
 }
 
