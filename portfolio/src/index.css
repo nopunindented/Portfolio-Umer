@@ -320,7 +320,7 @@ code {
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 2);
   border-radius: 25px;
   box-sizing: border-box;
-  grid-template-columns: 2.2fr 0.2fr;
+  grid-template-columns: 2.2fr 0.55fr;
   grid-template-rows: 0.7fr 0.7fr 2fr; /* Adjust as needed */
 
   grid-row: 2;
@@ -340,6 +340,19 @@ code {
   grid-column: 1;
 }
 
+.dayforce-date {
+  position: relative;
+  text-align: left;
+  top: 30%;
+  left: 2%;
+  font-family: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
+  font-size: 100%;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  grid-row: 1;
+  grid-column: 2;
+}
+
 .dayforce-position {
   position: relative;
   text-align: left;
@@ -357,7 +370,7 @@ code {
   position: relative;
   list-style-type: none;
   font-family: "Fira Code";
-  font-size: 100%;
+  font-size: 90%;
   color: white;
   left: 2%;
   font-weight: 500;
