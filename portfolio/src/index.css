@@ -315,7 +315,7 @@ code {
   position: relative;
   background: rgba(41, 41, 41, 0.27);
   backdrop-filter: blur(0.7px);
-  height: 50%;
+  height: 60%;
   top: 15%;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 2);
   border-radius: 25px;
@@ -325,6 +325,12 @@ code {
 
   grid-row: 2;
   grid-column: 2;
+}
+
+@media (max-width: 499px) {
+  .dayforce-container {
+    height: 70%;
+  }
 }
 
 .dayforce-name {
@@ -340,17 +346,49 @@ code {
   grid-column: 1;
 }
 
+@media (max-width: 1213px) {
+  .dayforce-name {
+    font-size: 95%;
+  }
+}
+
+@media (max-width: 1095px) {
+  .dayforce-name {
+    font-size: 80%;
+  }
+}
+
 .dayforce-date {
   position: relative;
   text-align: left;
   top: 30%;
-  left: 2%;
+  left: 11%;
   font-family: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
   font-size: 100%;
   font-weight: bold;
   color: rgb(255, 255, 255);
   grid-row: 1;
   grid-column: 2;
+}
+
+@media (max-width: 1359px) {
+  .dayforce-date {
+    left: 5%;
+  }
+}
+
+@media (max-width: 1213px) {
+  .dayforce-date {
+    font-size: 95%;
+    left: 0%;
+  }
+}
+
+@media (max-width: 1095px) {
+  .dayforce-date {
+    font-size: 80%;
+    left: 0%;
+  }
 }
 
 .dayforce-position {
@@ -380,6 +418,18 @@ code {
   margin: 0;
 }
 
+@media (max-width: 896px) {
+  .dayforce-points {
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 680px) {
+  .dayforce-points {
+    font-size: 70%;
+  }
+}
+
 .dayforce-points li {
   margin-left: 20px;
   text-indent: 0; /* Adjust the indent as needed */
@@ -396,10 +446,4 @@ code {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   grid-column: 1;
   grid-row: 2;
-}
-
-@media (max-width: 456px) {
-  .dayforce-name {
-    font-size: 155%;
-  }
 }
