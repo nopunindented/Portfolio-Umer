@@ -358,6 +358,24 @@ code {
   }
 }
 
+@media (max-width: 600px) {
+  .dayforce-name {
+    font-size: 77%;
+  }
+}
+
+@media (max-width: 323px) {
+  .dayforce-name {
+    font-size: 65%;
+  }
+}
+
+@media (max-width: 308px) {
+  .dayforce-name {
+    font-size: 50%;
+  }
+}
+
 .dayforce-date {
   position: relative;
   text-align: left;
@@ -391,6 +409,32 @@ code {
   }
 }
 
+@media (max-width: 600px) {
+  .dayforce-date {
+    font-size: 77%;
+    left: 0%;
+  }
+}
+
+@media (max-width: 411px) {
+  .dayforce-date {
+    left: -2%;
+  }
+}
+
+@media (max-width: 323px) {
+  .dayforce-date {
+    font-size: 65%;
+    left: -2%;
+  }
+}
+
+@media (max-width: 308px) {
+  .dayforce-date {
+    font-size: 50%;
+  }
+}
+
 .dayforce-position {
   position: relative;
   text-align: left;
@@ -402,6 +446,12 @@ code {
   color: rgb(255, 255, 255);
   grid-row: 2;
   grid-column: 1;
+}
+
+@media (max-width: 499px) {
+  .dayforce-position {
+    top: -10%;
+  }
 }
 
 .dayforce-points {
@@ -430,20 +480,21 @@ code {
   }
 }
 
+@media (max-width: 411px) {
+  .dayforce-points {
+    font-size: 67%;
+  }
+}
+
+@media (max-width: 360px) {
+  .dayforce-points {
+    font-size: 63%;
+  }
+}
+
 .dayforce-points li {
   margin-left: 20px;
   text-indent: 0; /* Adjust the indent as needed */
   text-align: left;
   list-style: disc; /* Set the list style explicitly */
-}
-
-.dayforce-logo {
-  position: relative;
-  color: #ffffff;
-  left: -2%;
-  font-size: 195%;
-  font-weight: 800;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  grid-column: 1;
-  grid-row: 2;
 }
