@@ -1,5 +1,6 @@
 import React from "react";
 import Dayforce from "../components/Dayforce";
+import Subnet from "../components/Subnet";
 
 const SecondPage: React.FC = () => {
   return (
@@ -7,6 +8,7 @@ const SecondPage: React.FC = () => {
       <div className="second-page">
         <div className="work-header">Work Experience</div>
         <Dayforce />
+        <Subnet />
       </div>
     </>
   );

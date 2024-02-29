@@ -270,10 +270,10 @@ code {
 .second-page {
   display: grid;
   background: #0c0c0c;
-  height: 120vh;
+  height: 200vh;
   background-position: 0% 700%;
   grid-template-columns: 0.6fr 3fr 0.6fr;
-  grid-template-rows: 0.9fr 2fr 1fr;
+  grid-template-rows: 0.45fr 1fr 1fr 0.8fr;
 }
 
 .work-header {
@@ -315,8 +315,8 @@ code {
   position: relative;
   background: rgba(41, 41, 41, 0.27);
   backdrop-filter: blur(0.7px);
-  height: 60%;
-  top: 15%;
+  height: 68%;
+  top: 16%;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 2);
   border-radius: 25px;
   box-sizing: border-box;
@@ -329,7 +329,7 @@ code {
 
 @media (max-width: 499px) {
   .dayforce-container {
-    height: 70%;
+    height: 75%;
   }
 }
 
@@ -418,7 +418,7 @@ code {
 
 @media (max-width: 411px) {
   .dayforce-date {
-    left: -2%;
+    left: -4%;
   }
 }
 
@@ -458,7 +458,7 @@ code {
   position: relative;
   list-style-type: none;
   font-family: "Fira Code";
-  font-size: 90%;
+  font-size: 91%;
   color: white;
   left: 2%;
   font-weight: 500;
@@ -497,4 +497,21 @@ code {
   text-indent: 0; /* Adjust the indent as needed */
   text-align: left;
   list-style: disc; /* Set the list style explicitly */
+}
+
+.subnet-container {
+  display: grid;
+  position: relative;
+  background: rgba(41, 41, 41, 0.27);
+  backdrop-filter: blur(0.7px);
+  height: 68%;
+  top: 5%;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 2);
+  border-radius: 25px;
+  box-sizing: border-box;
+  grid-template-columns: 2.2fr 0.55fr;
+  grid-template-rows: 0.7fr 0.7fr 2fr; /* Adjust as needed */
+
+  grid-row: 3;
+  grid-column: 2;
 }
