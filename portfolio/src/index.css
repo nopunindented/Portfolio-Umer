@@ -590,6 +590,7 @@ code {
 @media (max-width: 1213px) {
   .subnet-date {
     font-size: 95%;
+    left: -8%;
   }
 }
 
@@ -678,9 +679,54 @@ code {
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 2);
   border-radius: 25px;
   box-sizing: border-box;
-  grid-template-columns: 2.2fr 0.42fr;
+  grid-template-columns: 2.2fr 0.54fr;
   grid-template-rows: 0.7fr 0.7fr 2fr; /* Adjust as needed */
 
   grid-row: 4;
   grid-column: 2;
+}
+
+.uni-points {
+  position: relative;
+  list-style-type: none;
+  font-family: "Fira Code";
+  font-size: 91%;
+  color: white;
+  left: 2%;
+  font-weight: 500;
+  padding: 0;
+  grid-row: 3;
+  grid-column: 1;
+  margin: 0;
+}
+
+@media (max-width: 896px) {
+  .uni-points {
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 680px) {
+  .uni-points {
+    font-size: 70%;
+  }
+}
+
+@media (max-width: 411px) {
+  .uni-points {
+    font-size: 67%;
+  }
+}
+
+@media (max-width: 360px) {
+  .uni-points {
+    font-size: 60%;
+  }
+}
+
+.uni-points li {
+  margin-left: 20px;
+  text-indent: 0; /* Adjust the indent as needed */
+  text-align: left;
+  list-style: disc; /* Set the list style explicitly */
 }
