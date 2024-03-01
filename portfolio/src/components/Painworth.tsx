@@ -4,10 +4,10 @@ const Painworth: React.FC = () => {
   return (
     <>
       <div className="painworth-container">
-        <div className="subnet-name">PainWorth</div>
+        <div className="dayforce-name">PainWorth</div>
         <div className="subnet-date">May 2023 - August 2023</div>
-        <div className="subnet-position">Software Developer Intern</div>
-        <ul className="uni-points">
+        <div className="dayforce-position">Software Developer Intern</div>
+        <ul className="painworth-points">
         <li> Developed a Docker-containerized Python Flask microservice to automate extraction of context-based keywords
 from court documents, optimizing a process from over 2 hours to under 10 seconds.</li>
         <li> Devised Langchain and LLM classification pipeline with .NET preprocessing connected to MySQL database,

@@ -327,6 +327,12 @@ code {
   grid-column: 2;
 }
 
+@media (max-width: 380px) {
+  .dayforce-container {
+    height: 61%;
+  }
+}
+
 .dayforce-name {
   position: relative;
   text-align: left;
@@ -512,6 +518,12 @@ code {
   grid-column: 2;
 }
 
+@media (max-width: 380px) {
+  .subnet-container {
+    height: 71%;
+  }
+}
+
 .subnet-name {
   position: relative;
   text-align: left;
@@ -630,6 +642,7 @@ code {
   list-style-type: none;
   font-family: "Fira Code";
   font-size: 91%;
+  top: 5%;
   color: white;
   left: 2%;
   font-weight: 500;
@@ -652,8 +665,8 @@ code {
 }
 
 @media (max-width: 411px) {
-  .subnet-points {
-    font-size: 67%;
+  .dayforce-points {
+    font-size: 64%;
   }
 }
 
@@ -686,9 +699,15 @@ code {
   grid-column: 2;
 }
 
-@media (max-width: 411px) {
+@media (max-width: 380px) {
   .uni-container {
     height: 74%;
+  }
+}
+
+@media (max-width: 336px) {
+  .uni-container {
+    height: 77%;
   }
 }
 
@@ -742,14 +761,104 @@ code {
   position: relative;
   background: rgba(41, 41, 41, 0.27);
   backdrop-filter: blur(0.7px);
-  height: 60%;
-  top: 6%;
+  height: 67%;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 2);
   border-radius: 25px;
   box-sizing: border-box;
-  grid-template-columns: 2.2fr 0.54fr;
-  grid-template-rows: 0.7fr 0.7fr 2fr; /* Adjust as needed */
+  grid-template-columns: 2.2fr 0.55fr;
+  grid-template-rows: 0.7fr 2fr; /* Adjust as needed */
 
   grid-row: 5;
   grid-column: 2;
+}
+
+@media (max-width: 768px) {
+  .painworth-container {
+    height: 72%;
+  }
+}
+
+@media (max-width: 768px) {
+  .painworth-container {
+    height: 73%;
+  }
+}
+
+@media (max-width: 518px) {
+  .painworth-container {
+    height: 75%;
+  }
+}
+
+@media (max-width: 517px) {
+  .painworth-container {
+    height: 77%;
+  }
+}
+
+@media (max-width: 360px) {
+  .painworth-container {
+    height: 80%;
+  }
+}
+
+.painworth-points {
+  position: relative;
+  list-style-type: none;
+  font-family: "Fira Code";
+  font-size: 91%;
+  top: 5%;
+  color: white;
+  left: 2%;
+  font-weight: 500;
+  padding: 0;
+  grid-row: 2;
+  grid-column: 1;
+  margin: 0;
+}
+
+@media (max-width: 896px) {
+  .painworth-points {
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 680px) {
+  .painworth-points {
+    font-size: 70%;
+  }
+}
+
+@media (max-width: 411px) {
+  .painworth-points {
+    font-size: 64%;
+  }
+}
+
+@media (max-width: 380px) {
+  .painworth-points {
+    font-size: 63%;
+    top: -1%;
+  }
+}
+
+@media (max-width: 380px) {
+  .painworth-points {
+    font-size: 63%;
+    top: -1%;
+  }
+}
+
+@media (max-width: 353px) {
+  .painworth-points {
+    font-size: 63%;
+    top: 2.5%;
+  }
+}
+
+.painworth-points li {
+  margin-left: 20px;
+  text-indent: 0; /* Adjust the indent as needed */
+  text-align: left;
+  list-style: disc; /* Set the list style explicitly */
 }
