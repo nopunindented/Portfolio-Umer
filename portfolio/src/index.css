@@ -502,7 +502,6 @@ code {
   background: rgba(41, 41, 41, 0.27);
   backdrop-filter: blur(0.7px);
   height: 67%;
-  top: 16%;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 2);
   border-radius: 25px;
   box-sizing: border-box;
@@ -676,16 +675,21 @@ code {
   position: relative;
   background: rgba(41, 41, 41, 0.27);
   backdrop-filter: blur(0.7px);
-  height: 80%;
-  top: 13%;
+  height: 67%;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 2);
   border-radius: 25px;
   box-sizing: border-box;
-  grid-template-columns: 2.2fr 0.54fr;
+  grid-template-columns: 2.2fr 0.55fr;
   grid-template-rows: 0.7fr 2fr; /* Adjust as needed */
 
   grid-row: 4;
   grid-column: 2;
+}
+
+@media (max-width: 411px) {
+  .uni-container {
+    height: 74%;
+  }
 }
 
 .uni-points {
