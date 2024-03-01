@@ -455,12 +455,6 @@ code {
   }
 }
 
-@media (max-width: 499px) {
-  .dayforce-position {
-    top: 30%;
-  }
-}
-
 .dayforce-points {
   position: relative;
   list-style-type: none;
@@ -636,12 +630,12 @@ code {
 }
 
 @media (max-width: 308px) {
-  .dayforce-date {
+  .subnet-date {
     font-size: 50%;
   }
 }
 
-.dayforce-points {
+.subnet-points {
   position: relative;
   list-style-type: none;
   font-family: "Fira Code";
@@ -656,30 +650,30 @@ code {
 }
 
 @media (max-width: 896px) {
-  .dayforce-points {
+  .subnet-points {
     font-size: 80%;
   }
 }
 
 @media (max-width: 680px) {
-  .dayforce-points {
+  .subnet-points {
     font-size: 70%;
   }
 }
 
 @media (max-width: 411px) {
-  .dayforce-points {
+  .subnet-points {
     font-size: 67%;
   }
 }
 
 @media (max-width: 360px) {
-  .dayforce-points {
+  .subnet-points {
     font-size: 63%;
   }
 }
 
-.dayforce-points li {
+.subnet-points li {
   margin-left: 20px;
   text-indent: 0; /* Adjust the indent as needed */
   text-align: left;
