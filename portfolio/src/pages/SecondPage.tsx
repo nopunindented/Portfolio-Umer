@@ -2,6 +2,7 @@ import React from "react";
 import Dayforce from "../components/Dayforce";
 import Subnet from "../components/Subnet";
 import University from "../components/University";
+import Painworth from "../components/Painworth";
 
 const SecondPage: React.FC = () => {
   return (
@@ -11,6 +12,7 @@ const SecondPage: React.FC = () => {
         <Dayforce />
         <Subnet />
         <University />
+        <Painworth />
       </div>
     </>
   );

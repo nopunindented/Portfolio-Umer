@@ -273,7 +273,7 @@ code {
   height: 300vh;
   background-position: 0% 700%;
   grid-template-columns: 0.6fr 3fr 0.6fr;
-  grid-template-rows: 0.4fr 0.9fr 0.7fr 1fr 1fr;
+  grid-template-rows: 0.4fr 0.9fr 0.7fr 0.8fr 1fr;
 }
 
 .work-header {
@@ -674,7 +674,7 @@ code {
   position: relative;
   background: rgba(41, 41, 41, 0.27);
   backdrop-filter: blur(0.7px);
-  height: 60%;
+  height: 80%;
   top: 13%;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 2);
   border-radius: 25px;
@@ -726,7 +726,24 @@ code {
 
 .uni-points li {
   margin-left: 20px;
-  text-indent: 0; /* Adjust the indent as needed */
+  text-indent: 0;
   text-align: left;
-  list-style: disc; /* Set the list style explicitly */
+  list-style: disc;
+}
+
+.painworth-container {
+  display: grid;
+  position: relative;
+  background: rgba(41, 41, 41, 0.27);
+  backdrop-filter: blur(0.7px);
+  height: 60%;
+  top: 13%;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 2);
+  border-radius: 25px;
+  box-sizing: border-box;
+  grid-template-columns: 2.2fr 0.54fr;
+  grid-template-rows: 0.7fr 0.7fr 2fr; /* Adjust as needed */
+
+  grid-row: 5;
+  grid-column: 2;
 }
