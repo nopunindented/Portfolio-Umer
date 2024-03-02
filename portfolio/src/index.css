@@ -27,7 +27,7 @@ code {
   height: 120vh;
   grid-template-columns: 0.85fr 3fr 0.4fr;
   grid-template-rows: 0.4fr 0.5fr 1.5fr 1fr;
-  border-bottom: 1px solid #999999; /* Add a 1px solid gray border */
+  border-bottom: 1px solid #3b3b3b; /* Add a 1px solid gray border */
 }
 
 @media (max-width: 425px) {
@@ -269,7 +269,7 @@ code {
 
 .second-page {
   display: grid;
-  background: #0c0c0c;
+  background: #0b0b0b;
   height: 300vh;
   background-position: 0% 700%;
   grid-template-columns: 0.6fr 3fr 0.6fr;
