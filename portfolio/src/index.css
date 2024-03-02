@@ -261,7 +261,7 @@ code {
 }
 
 .glow-on-hover:hover {
-  filter: drop-shadow(0 0 5px white);
+  filter: drop-shadow(0 0 2.5px white);
   transition: filter 0s ease-in-out;
 }
 
@@ -269,11 +269,12 @@ code {
 
 .second-page {
   display: grid;
-  background: rgb(12, 12, 12);
+  background: rgb(15, 15, 15);
   height: 300vh;
   background-position: 0% 700%;
   grid-template-columns: 0.6fr 3fr 0.6fr;
   grid-template-rows: 0.4fr 0.9fr 0.7fr 0.8fr 1fr;
+  border-bottom: 1px solid #3b3b3b; /* Add a 1px solid gray border */
 }
 
 .work-header {
@@ -286,7 +287,7 @@ code {
 
   mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
   mask-size: 200%;
-  animation: shine 2s infinite;
+  animation: shine 1.7s infinite;
 
   background: #b1b1b1;
   -webkit-background-clip: text;
@@ -332,6 +333,7 @@ code {
   height: 55%;
   top: 16%;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 2);
+  border: 0.5px solid rgb(45, 45, 45);
   border-radius: 25px;
   box-sizing: border-box;
   grid-template-columns: 2.2fr 0.55fr;
@@ -531,6 +533,7 @@ code {
   height: 72%;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 2);
   border-radius: 25px;
+  border: 0.5px solid rgb(45, 45, 45);
   box-sizing: border-box;
   grid-template-columns: 2.2fr 0.55fr;
   grid-template-rows: 0.9fr 2fr; /* Adjust as needed */
@@ -718,6 +721,7 @@ code {
   backdrop-filter: blur(0.7px);
   height: 67%;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 2);
+  border: 0.5px solid rgb(45, 45, 45);
   border-radius: 25px;
   box-sizing: border-box;
   grid-template-columns: 2.2fr 0.55fr;
@@ -811,6 +815,7 @@ code {
   height: 67%;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 2);
   border-radius: 25px;
+  border: 0.5px solid rgb(45, 45, 45);
   box-sizing: border-box;
   grid-template-columns: 2.2fr 0.55fr;
   grid-template-rows: 0.7fr 2fr; /* Adjust as needed */
@@ -939,8 +944,8 @@ code {
 
 .third-page {
   display: grid;
-  background: rgb(0, 0, 0);
-  height: 100vh;
+  background: rgb(10, 10, 10);;
+  height: 50vh;
   background-position: 0% 700%;
   grid-template-columns: 0.6fr 3fr 0.6fr;
   grid-template-rows: 0.4fr 0.9fr 0.7fr 0.8fr 1fr;
