@@ -942,10 +942,12 @@ code {
   }
 }
 
+/* ThirdPage.tsx and its associated */
+
 .third-page {
   display: grid;
   background: rgb(10, 10, 10);;
-  height: 50vh;
+  height: 200vh;
   background-position: 0% 700%;
   grid-template-columns: 0.6fr 3fr 0.6fr;
   grid-template-rows: 0.4fr 0.9fr 0.7fr 0.8fr 1fr;
