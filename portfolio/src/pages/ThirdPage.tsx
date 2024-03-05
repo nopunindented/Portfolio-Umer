@@ -6,6 +6,9 @@ const ThirdPage: React.FC = () => {
     <>
       <div className="third-page">
         <div className="work-header">Featured Projects</div>
+        <div className='project-container'>
+          
+        </div>
       </div>
     </>
   );
