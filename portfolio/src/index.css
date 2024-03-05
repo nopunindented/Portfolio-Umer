@@ -950,7 +950,65 @@ code {
   height: 200vh;
   background-position: 0% 700%;
   grid-row: 3;
-  grid-template-columns: 0.6fr 3fr 0.6fr;
-  grid-template-rows: 0.4fr 0.9fr 0.7fr 0.8fr 1fr;
+  grid-template-columns: 0.2fr 3fr 0.2fr;
+  grid-template-rows: 0.4fr 0.9fr 0.7fr;
 }
 
+.scroll-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  grid-column: 2;
+  grid-row: 2;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+
+
+.content-box {
+  width: 1800px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card p {
+  font-size: 70px;
+  font-weight: 600;
+  color: #ffffff;
+  opacity: 0.4;
+}
+
+.action-btns {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-top: 50px;
+}
+
+.action-btns button {
+  font-size: 15px;
+  font-weight: 500;
+  color: #002d36;
+  background-color: #99c6cf;
+  border-radius: 6px;
+  padding: 10px 25px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.action-btns button:hover {
+  color: #ffffff;
+  background-color: #002d36;
+}

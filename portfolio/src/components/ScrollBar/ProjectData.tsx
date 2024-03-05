@@ -15,6 +15,10 @@ const ProjectData: Data[] = [
   { id: "07", color: "#4d9caa" },
   { id: "08", color: "#67aab6" },
   { id: "09", color: "#80b8c3" },
+  { id: "06", color: "#348d9e" },
+  { id: "07", color: "#4d9caa" },
+  { id: "08", color: "#67aab6" },
+  { id: "09", color: "#80b8c3" },
 ];
 
 export default ProjectData;
