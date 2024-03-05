@@ -957,13 +957,14 @@ code {
 .scroll-container {
   position: relative;
   display: flex;
-  flex-direction: column;
+  flex-direction: row; /* Change from column to row */
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start; /* Adjust as needed */
   grid-column: 2;
   grid-row: 2;
-  overflow-x: scroll;
+  overflow-x: auto; /* Use 'auto' to show scrollbar only when necessary */
   scroll-behavior: smooth;
+  gap: 20px;
 }
 
 
