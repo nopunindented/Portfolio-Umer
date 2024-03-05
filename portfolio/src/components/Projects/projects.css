@@ -6,7 +6,6 @@
   overflow: hidden;
   box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.3);
   grid-column: 1;
-  height: 50%;
   width: 90%;
   grid-row: 1;
   grid-template-columns: 0.2fr 1fr 0.2fr;
@@ -14,20 +13,7 @@
 }
 
 .voltscript-container.hovered {
-  display: grid;
-  box-sizing: border-box;
-  position: relative;
-  border-radius: 2%;
-  overflow: hidden;
   box-shadow: 0px 0px 8px rgba(255, 255, 255, 1);
-  background-color: white;
-  grid-column: 1;
-  height: 50%;
-  width: 90%;
-  grid-row: 1;
-  grid-template-columns: 0.2fr 1fr 0.2fr;
-  grid-template-rows: 0.5fr 1fr 0.5fr;
-  animation: growBoxDown 0.6s ease forwards;
 }
 
 .firealert-container {
@@ -35,32 +21,20 @@
   position: relative;
   border-radius: 2%;
   overflow: hidden;
-  box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
   grid-column: 2;
   grid-row: 1;
-  height: 50%;
   width: 90%;
   margin-left: 5%;
   margin-right: 5%;
 }
 
 .firealert-container.hovered {
-  box-sizing: border-box;
-  position: relative;
-  border-radius: 2%;
-  overflow: hidden;
-  box-shadow: 0px 0px 8px rgba(255, 255, 255, 1);
-  background-color: white;
-  grid-column: 2;
-  grid-row: 1;
-  height: 50%;
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
-  animation: growBoxDown 0.6s ease forwards;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
 }
 
 .thriftaid-container {
+  display: grid;
   box-sizing: border-box;
   position: relative;
   border-radius: 2%;
@@ -68,30 +42,12 @@
   box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.3);
   grid-column: 3;
   grid-row: 1;
-  height: 50%;
   width: 90%;
   margin-left: 10%;
+  grid-template-columns: 0.2fr 1fr 0.2fr;
+  grid-template-rows: 0.1fr 0.5fr 1fr 0.5fr;
 }
 
 .thriftaid-container.hovered {
-  /* Your styles for the hover effect */
-  box-sizing: border-box;
-  position: relative;
-  border-radius: 2%;
-  overflow: hidden;
-  box-shadow: 0px 0px 8px rgba(255, 255, 255, 1);
-  background-color: white;
-  grid-column: 3;
-  grid-row: 1;
-  height: 50%;
-  width: 90%;
-  margin-left: 10%;
-  animation: growBoxDown 0.6s ease forwards;
-}
-
-@keyframes growBoxDown {
-  to {
-    height: 100%;
-    transform: scaleY(1);
-  }
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
 }
