@@ -1,10 +1,35 @@
-.thriftaid-container {
+.voltscript-container {
     box-sizing: border-box;
     position: relative;
-    width: 20%;
-    height: 49%;
-    left: 20%;
     border-radius: 2%;
     overflow: hidden;
     box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.3);
+    grid-column: 1;
+    width: 90%;
+    grid-row: 1;
   }
+
+.firealert-container {
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 2%;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.3);
+    grid-column: 2;
+    grid-row: 1;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.thriftaid-container {
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 2%;
+  overflow: hidden;
+  box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.3);
+  grid-column: 3;
+  grid-row: 1;
+  width: 90%;
+  margin-left: 10%;
+}

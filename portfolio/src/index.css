@@ -951,7 +951,7 @@ code {
   background-position: 0% 700%;
   grid-row: 3;
   grid-template-columns: 0.2fr 3fr 0.2fr;
-  grid-template-rows: 0.4fr 0.9fr;
+  grid-template-rows: 0.25fr 0.9fr;
 }
 
 .project-container {
@@ -959,5 +959,5 @@ code {
   grid-column: 2;
   grid-row: 2;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 0.8fr 1fr;
 }

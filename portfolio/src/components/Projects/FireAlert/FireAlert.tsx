@@ -4,7 +4,7 @@ import './../projects.css';
 const FireAlert: React.FC = () => {
   return (
     <>
-      <div className="thriftaid-container">
+      <div className="firealert-container">
       </div>
     </>
   );
