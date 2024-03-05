@@ -1,6 +1,6 @@
 import React from 'react';
 import './../index.css';
-import ScrollBar from '../components/ScrollBar';
+import ScrollBar from '../components/ScrollBar/ScrollBar';
 
 const ThirdPage: React.FC = () => {
   return (
