@@ -21,14 +21,18 @@ const ScrollBar: React.FC = () => {
   return (
     <div className="scroll-container">
       <div
+        ref={containerRef}
+        style={{
+          overflowX: 'scroll',
+          scrollBehavior: 'smooth',
+          whiteSpace: 'nowrap', // Ensure children are in a horizontal line
+        }}
       >
-        <div className="content-box">
-          {ProjectData.map((item) => (
-            <div className="card" style={{ backgroundColor: item.color }}>
-              <p>{item.id}</p>
-            </div>
-          ))}
-        </div>
+        {/* Add your components here */}
+      </div>
+      <div className="action-btns">
+        <button onClick={() => handleScroll(-200)}>Scroll Left</button>
+        <button onClick={() => handleScroll(200)}>Scroll Right</button>
       </div>
     </div>
   );
