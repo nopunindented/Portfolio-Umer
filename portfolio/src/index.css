@@ -947,7 +947,7 @@ code {
 .third-page {
   display: grid;
   background: rgb(10, 10, 10);;
-  height: 200vh;
+  height: 250vh;
   background-position: 0% 700%;
   grid-row: 3;
   grid-template-columns: 0.2fr 3fr 0.2fr;

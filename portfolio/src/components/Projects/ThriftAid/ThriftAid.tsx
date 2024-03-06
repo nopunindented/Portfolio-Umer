@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import './../projects.css';
 import logo from './thriftaid.svg'
+import link from './../link.png'
 
 const ThriftAid: React.FC = () => {
   const [isHovered, setIsHovered] = useState<boolean>(false);
@@ -23,9 +24,10 @@ const ThriftAid: React.FC = () => {
           </div>
         </div>
         <div className="thriftaidrow-three">
-          <div className="thriftaid-name" style={{gridRow: "1", fontFamily: "Fira Code", position: "relative", fontSize: "100%", fontWeight: "600", color: "white"}}>
-          ThriftAid is a platform that links homeless shelters with thrift. Thrift stores can donate excess stock by creating postings which homeless shelters may choose to accept.
+          <div className="thriftaid-name" style={{gridRow: "1", fontFamily: "Fira Code", position: "relative", fontSize: "90%", fontWeight: "600", color: "white"}}>
+            ThriftAid is a platform that links homeless shelters with thrift. Thrift stores can donate excess stock by creating postings which homeless shelters may choose to accept.
           </div>
+          <img src={link} alt="link" style={{gridRow: "2", position: "relative", width: "15%", top: "30%"}}/>
         </div>
       </div>
     </>
