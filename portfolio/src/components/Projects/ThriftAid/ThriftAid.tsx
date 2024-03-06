@@ -16,7 +16,7 @@ const ThriftAid: React.FC = () => {
   return (
     <>
       <div className={`thriftaid-container ${isHovered ? 'hovered' : ''}`} onMouseEnter={handleHover} onMouseLeave={handleMouseLeave}>
-        <img src={logo} alt="thriftaid logo" style={{gridColumn: "2", gridRow: "2", justifyContent: "center", alignItems: "center"}}/>
+        <img src={logo} alt="thriftaid logo" style={{gridColumn: "2", gridRow: "2"}}/>
       </div>
     </>
   );

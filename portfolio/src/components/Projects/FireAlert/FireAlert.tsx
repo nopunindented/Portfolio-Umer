@@ -15,6 +15,9 @@ const FireAlert: React.FC = () => {
   return (
     <>
       <div className={`firealert-container ${isHovered ? 'hovered' : ''}`} onMouseEnter={handleHover} onMouseLeave={handleMouseLeave}>
+        <div className="firealert-logo" style={{gridColumn: "2", gridRow: "2", fontFamily: "Oswald", fontSize:"300%", color: "#FF8928"}}>
+          Fire Alert!
+        </div>
       </div>
     </>
   );
