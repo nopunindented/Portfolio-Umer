@@ -32,7 +32,17 @@
   margin-left: 5%;
   margin-right: 5%;
   grid-template-columns: 0.2fr 1fr 0.2fr;
-  grid-template-rows: 0.1fr 0.4fr 0.7fr 0.5fr;
+  grid-template-rows: 0.2fr 0.7fr 0.5fr;
+}
+
+.firealertrow-two{
+  display: grid;
+  position: relative;
+  place-items: center;
+  grid-template-columns: 2fr;
+  grid-template-rows: 3fr 0.5fr;
+  grid-column: 2;
+  grid-row: 2;
 }
 
 .firealert-container.hovered {
@@ -51,7 +61,18 @@
   width: 90%;
   margin-left: 10%;
   grid-template-columns: 0.2fr 1fr 0.2fr;
-  grid-template-rows: 0.1fr 0.4fr 0.7fr 0.5fr;
+  grid-template-rows: 0.2fr 0.7fr 0.5fr;
+}
+
+.thriftaidrow-two{
+  top: 0%;
+  display: grid;
+  position: relative;
+  place-items: center;
+  grid-template-columns: 2fr;
+  grid-template-rows: 2.8fr 0.5fr;
+  grid-column: 2;
+  grid-row: 2;
 }
 
 .thriftaid-container.hovered {
