@@ -120,7 +120,7 @@
 /* Adjusted styling for row-four content */
 .thriftaidrow-four div {
   background-color: black;
-  color: white;
+  color: rgb(216, 191, 191);
   margin: 5px;
   padding: 5px;
   display: inline-block;
