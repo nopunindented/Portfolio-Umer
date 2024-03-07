@@ -23,6 +23,7 @@ const ThriftAid: React.FC = () => {
     'TypeScript',
     'JavaScript',
     'AWS'
+    ,'JWT'
   ];
 
   return (
