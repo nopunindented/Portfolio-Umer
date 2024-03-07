@@ -14,6 +14,17 @@ const ThriftAid: React.FC = () => {
     setIsHovered(false);
   };
 
+  const skills = [
+    'React',
+    'Express.js',
+    'Node.js',
+    'Redux',
+    'MongoDB',
+    'TypeScript',
+    'JavaScript',
+    'AWS'
+  ];
+
   return (
     <>
       <div className={`thriftaid-container ${isHovered ? 'hovered' : ''}`} onMouseEnter={handleHover} onMouseLeave={handleMouseLeave}>
@@ -27,7 +38,14 @@ const ThriftAid: React.FC = () => {
           <div className="thriftaid-name" style={{gridRow: "1", fontFamily: "Fira Code", position: "relative", fontSize: "90%", fontWeight: "600", color: "white"}}>
             ThriftAid is a platform that links homeless shelters with thrift. Thrift stores can donate excess stock by creating postings which homeless shelters may choose to accept.
           </div>
-          <img src={link} alt="link" style={{gridRow: "2", position: "relative", width: "15%", top: "30%"}}/>
+          <img src={link} alt="link" style={{gridRow: "2", position: "relative", width: "15%", top: "10%"}}/>
+        </div>
+        <div className="thriftaidrow-four">
+          {skills.map((skill) => (
+            <div>
+              {skill}
+            </div>
+          ))}
         </div>
       </div>
     </>

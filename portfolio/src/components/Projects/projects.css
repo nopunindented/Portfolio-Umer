@@ -61,7 +61,7 @@
   grid-row: 1;
   width: 90%;
   margin-left: 10%;
-  grid-template-columns: 0.2fr 1fr 0.2fr;
+  grid-template-columns: 0.2fr 2fr 0.2fr;
   grid-template-rows: 0.5fr 0.5fr 0.3fr;
 }
 
@@ -106,4 +106,23 @@
       width: 50%;
   }
   
+}
+
+.thriftaidrow-four {
+  grid-row: 3;
+  grid-column: 2;
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(3, 1fr); /* Updated for four columns */
+  grid-template-rows: 1fr 1fr 1fr; /* Updated for two rows */
+}
+
+/* Adjusted styling for row-four content */
+.thriftaidrow-four div {
+  background-color: black;
+  color: white;
+  margin: 5px;
+  padding: 5px;
+  display: inline-block;
+  border-radius: 6px;
 }
