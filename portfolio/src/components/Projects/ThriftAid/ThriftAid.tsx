@@ -16,14 +16,14 @@ const ThriftAid: React.FC = () => {
 
   const skills = [
     'React',
-    'Express.js',
-    'Node.js',
-    'Redux',
     'MongoDB',
+    'Express.js',
+    'Redux',
+    'Node.js',
     'TypeScript',
-    'JavaScript',
+    'JWT',
     'AWS'
-    ,'JWT'
+    ,'JavaScript'
   ];
 
   return (
