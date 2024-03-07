@@ -91,3 +91,19 @@
   grid-column: 2;
   grid-row: 2;
 }
+
+.growinglinethree {
+  width: 0;
+  margin-bottom: 5px;
+  height: 0.2%;
+  background-color: #ffffff; /* You can change the color to your preference */
+  animation: growLineTwice 1s ease forwards; /* Adjust the duration for the growing animation */
+  position: relative;
+}
+
+@keyframes growLineTwice {
+  to {
+      width: 50%;
+  }
+  
+}
