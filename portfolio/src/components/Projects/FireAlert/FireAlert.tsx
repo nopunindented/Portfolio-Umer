@@ -38,7 +38,7 @@ const FireAlert: React.FC = () => {
           <div className="thriftaid-name" style={{gridRow: "1", fontFamily: "Fira Code", position: "relative", fontSize: "82%", fontWeight: "600", color: "white"}}>
           Fire Alert is an android app providing real-time fire alerts to workers, such as farmers, in remote areas. The user selects a location and then the app provides SMS notifications if a fire is within a certain distance of the specified location.
           </div>
-          <a href="https://github.com/nopunindented/ThriftAid">
+          <a href="https://github.com/nopunindented/Fire-Alert">
             <img src={link} alt="link" style={{gridRow: "2", position: "relative", width: "42%", marginTop: "20%"}}/>
           </a>
         </div>
