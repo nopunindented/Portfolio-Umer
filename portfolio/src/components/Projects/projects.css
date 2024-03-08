@@ -18,37 +18,6 @@
   box-shadow: 0px 0px 8px rgba(255, 255, 255, 1);
 }
 
-.firealert-container {
-  display: grid;
-  box-sizing: border-box;
-  place-items: center;
-  position: relative;
-  border-radius: 2%;
-  overflow: hidden;
-  box-shadow: 0px 0px 10px rgba(216, 191, 191, 0.6);
-  grid-column: 2;
-  grid-row: 1;
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
-  grid-template-columns: 0.2fr 1fr 0.2fr;
-  grid-template-rows: 0.7fr 0.5fr 0.3fr;
-}
-
-.firealertrow-two{
-  top: 0%;
-  display: grid;
-  position: relative;
-  place-items: center;
-  grid-template-columns: 2fr;
-  grid-template-rows: 3.8fr 0.5fr;
-  grid-column: 2;
-  grid-row: 1;
-}
-
-.firealert-container.hovered {
-  box-shadow: 0px 0px 10px rgba(216, 191, 191, 1.2);
-}
 .thriftaid-container {
   display: grid;
   place-items: center;
@@ -125,4 +94,48 @@
   margin: 5px;
   padding: 5px;
   border-radius: 6px;
+}
+
+.firealert-container {
+  display: grid;
+  place-items: center;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 2%;
+  overflow: hidden;
+  box-shadow: 0px 0px 8px rgba(216, 191, 191, 0.6);
+  grid-column: 2;
+  grid-row: 1;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  grid-template-columns: 0.2fr 5fr 0.2fr;
+  grid-template-rows: 0.5fr 0.5fr 0.3fr;
+}
+
+.firealertrow-two{
+  top: 0%;
+  display: grid;
+  position: relative;
+  place-items: center;
+  grid-template-columns: 2fr;
+  grid-template-rows: 3.8fr 0.5fr;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.firealert-container.hovered {
+  box-shadow: 0px 0px 10px rgba(216, 191, 191, 1.2);
+}
+
+.firealertrow-three{
+  top: 10%;
+  display: grid;
+  left: 11%;
+  position: relative;
+  place-items: center;
+  grid-template-columns: 0.8fr;
+  grid-template-rows: 3.5fr 1.5fr;
+  grid-column: 2;
+  grid-row: 2;
 }
