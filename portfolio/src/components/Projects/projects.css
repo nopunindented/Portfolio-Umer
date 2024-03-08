@@ -139,3 +139,22 @@
   grid-column: 2;
   grid-row: 2;
 }
+
+.firealertrow-four {
+  grid-row: 3;
+  grid-column: 2;
+  display: grid;
+  position: relative;
+  grid-template-columns: 1.4fr 1fr 1fr; /* Updated for four columns */
+  grid-template-rows: 1fr 1fr 1fr; /* Updated for two rows */
+}
+
+/* Adjusted styling for row-four content */
+.firealertrow-four div {
+  background-color: black;
+  color: rgb(216, 191, 191);
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 6px;
+}

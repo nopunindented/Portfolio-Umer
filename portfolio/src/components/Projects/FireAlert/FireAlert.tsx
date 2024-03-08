@@ -14,14 +14,12 @@ const FireAlert: React.FC = () => {
   };
 
   const skills = [
-    'React',
-    'MongoDB',
-    'Express.js',
-    'Redux',
-    'Node.js',
-    'TypeScript',
-    'JWT',
-    'AWS'
+    'Scikit-Learn',
+    'Twilio',
+    'Python',
+    'React Native',
+    'Flask',
+    'GCP'
     ,'JavaScript'
   ];
 
@@ -41,10 +39,10 @@ const FireAlert: React.FC = () => {
           Fire Alert is an android app that provided real-time fire alerts to workers, such as farmers, in remote areas. The user selects a location and then the app provides SMS notifications if a fire is within a certain distance of the specified location.
           </div>
           <a href="https://github.com/nopunindented/ThriftAid">
-            <img src={link} alt="link" style={{gridRow: "2", position: "relative", width: "42%", marginTop: "20%"}}/>
+            <img src={link} alt="link" style={{gridRow: "2", position: "relative", width: "42%", marginTop: "15%"}}/>
           </a>
         </div>
-        <div className="thriftaidrow-four">
+        <div className="firealertrow-four">
           {skills.map((skill) => (
             <div>
               {skill}
