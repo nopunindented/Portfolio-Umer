@@ -64,6 +64,7 @@
   position: relative;
   grid-template-columns: 1.2fr 1.2fr 1.2fr; /* Updated for four columns */
   grid-template-rows: 2.5rem 2.5rem 2.5rem; /* Updated for two rows */
+  font-size: 85%;
 }
 
 /* Adjusted styling for row-four content */
@@ -90,7 +91,7 @@
   margin-left: 5%;
   margin-right: 5%;
   grid-template-columns: 0.2fr 5fr 0.2fr;
-  grid-template-rows: 0.5fr 0.5fr 0.3fr;
+  grid-template-rows: 0.65fr 0.6fr 0.4fr;
 }
 
 .firealertrow-two{
@@ -137,6 +138,7 @@
   margin: 5px;
   padding: 5px;
   border-radius: 6px;
+  font-size: 85%;
 }
 
 .voltscript-container {

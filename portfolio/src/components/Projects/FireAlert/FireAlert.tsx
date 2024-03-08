@@ -34,12 +34,12 @@ const FireAlert: React.FC = () => {
             Fire Alert
           </div>
         </div>
-        <div className="thriftaidrow-three">
-          <div className="thriftaid-name" style={{gridRow: "1", fontFamily: "Fira Code", position: "relative", fontSize: "82%", fontWeight: "600", color: "white"}}>
-          Fire Alert is an android app providing real-time fire alerts to workers, such as farmers, in remote areas. The user selects a location and then the app provides SMS notifications if a fire is within a certain distance of the specified location.
+        <div className="firealertrow-three">
+          <div className="thriftaid-name" style={{gridRow: "1", fontFamily: "Fira Code", position: "relative", fontSize: "85%", fontWeight: "600", color: "white"}}>
+          Fire Alert is an android app providing real-time fire alerts to people in remote areas. You select a location & the app provides SMS notifications if a fire is within a certain distance of the location.
           </div>
           <a href="https://github.com/nopunindented/Fire-Alert">
-            <img src={link} alt="link" style={{gridRow: "2", position: "relative", width: "42%", marginTop: "20%"}}/>
+          <img src={link} alt="link" style={{gridRow: "2", position: "relative", width: "42%", marginTop: "35%"}}/>
           </a>
         </div>
         <div className="firealertrow-four">
