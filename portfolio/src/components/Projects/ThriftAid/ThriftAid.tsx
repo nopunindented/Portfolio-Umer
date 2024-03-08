@@ -35,8 +35,8 @@ const ThriftAid: React.FC = () => {
             ThriftAid
           </div>
         </div>
-        <div className="thriftaidrow-three">
-          <div className="thriftaid-name" style={{gridRow: "1", fontFamily: "Fira Code", position: "relative", fontSize: "90%", fontWeight: "600", color: "white"}}>
+        <div className="firealertrow-three">
+          <div className="thriftaid-name" style={{gridRow: "1", fontFamily: "Fira Code", position: "relative", fontSize: "91%", fontWeight: "600", color: "white"}}>
             ThriftAid is a platform that links homeless shelters with thrift stores. Thrift stores can donate excess stock by creating postings which homeless shelters may choose to accept.
           </div>
           <a href="https://github.com/nopunindented/ThriftAid">

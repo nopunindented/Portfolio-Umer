@@ -11,7 +11,7 @@
   width: 90%;
   margin-left: 10%;
   grid-template-columns: 0.2fr 5fr 0.2fr;
-  grid-template-rows: 0.5fr 0.5fr 0.3fr;
+  grid-template-rows: 0.63fr 0.6fr 0.4fr;
 }
 
 .thriftaid-container.hovered {
@@ -27,6 +27,7 @@
   grid-template-rows: 3.8fr 0.5fr;
   grid-column: 2;
   grid-row: 1;
+  margin-bottom: 12px;
 }
 
 .thriftaidrow-three{
@@ -91,8 +92,10 @@
   margin-left: 5%;
   margin-right: 5%;
   grid-template-columns: 0.2fr 5fr 0.2fr;
-  grid-template-rows: 0.65fr 0.6fr 0.4fr;
+  grid-template-rows: 0.63fr 0.6fr 0.4fr;
 }
+
+/* Consider using for laptop sizes: grid-template-rows: 14rem 13.5rem 9.6rem; */
 
 .firealertrow-two{
   top: 0%;
@@ -154,7 +157,7 @@
   width: 90%;
   margin-right: 10%;
   grid-template-columns: 0.2fr 5fr 0.2fr;
-  grid-template-rows: 0.5fr 0.5fr 0.3fr;
+  grid-template-rows: 0.6fr 0.6fr 0.4fr;
 }
 /* color: rgb(33, 181, 222); */
 
