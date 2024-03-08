@@ -82,8 +82,8 @@
   grid-column: 2;
   display: grid;
   position: relative;
-  grid-template-columns: 1fr 1.2fr 1.4fr; /* Updated for four columns */
-  grid-template-rows: 1fr 1fr 1fr; /* Updated for two rows */
+  grid-template-columns: 1.2fr 1.2fr 1.2fr; /* Updated for four columns */
+  grid-template-rows: 2.5rem 2.5rem 2.5rem; /* Updated for two rows */
 }
 
 /* Adjusted styling for row-four content */
@@ -145,8 +145,8 @@
   grid-column: 2;
   display: grid;
   position: relative;
-  grid-template-columns: 1.4fr 1fr 1fr; /* Updated for four columns */
-  grid-template-rows: 1fr 1fr 1fr; /* Updated for two rows */
+  grid-template-columns: 1.2fr 1.2fr 1.2fr; /* Updated for four columns */
+  grid-template-rows: 2.5rem 2.5rem 2.5rem; /* Updated for two rows */
 }
 
 /* Adjusted styling for row-four content */
