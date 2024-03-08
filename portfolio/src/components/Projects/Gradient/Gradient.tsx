@@ -29,7 +29,7 @@ const Gradient: React.FC = () => {
     <>
       <div className={`gradient-container ${isHovered ? 'hovered' : ''}`} onMouseEnter={handleHover} onMouseLeave={handleMouseLeave}>
         <div className="thriftaidrow-two" >
-        <img src={logo} alt="thriftaid logo" style={{gridRow: "1", position: "relative", width: "80%", marginLeft: "50%", marginRight: "20%"}}/>
+        <img src={logo} alt="thriftaid logo" style={{gridRow: "1", position: "relative", width: "80%", marginLeft: "50%", marginRight: "20%", top: "10%"}}/>
           <div className="thriftaid-name" style={{gridRow: "2", fontFamily: "Space Grotesk, sans-serif", position: "relative", fontSize: "200%", fontWeight: "600", color: "rgb(216, 191, 191)"}}>
             Gradient
           </div>
