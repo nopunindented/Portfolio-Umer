@@ -998,6 +998,10 @@ code {
   grid-template-rows: 0.63fr 0.6fr 0.4fr;
 }
 
+.thriftaid-logo{
+  margin-top: 20%;
+}
+
 @media (max-width: 1098px) {
   .thriftaid-container {
     display: grid;
@@ -1014,6 +1018,10 @@ code {
     margin-top: 50px;
     grid-template-columns: 0.2fr 5fr 0.2fr;
     grid-template-rows: 0.73fr 0.7fr 0.5fr;
+  }
+
+  .thriftaid-logo {
+    margin-top: 15%;
   }
 }
 
@@ -1227,6 +1235,10 @@ code {
   grid-template-rows: 0.6fr 0.6fr 0.4fr;
 }
 
+.gradient-name {
+  font-size: 83%;
+}
+
 @media (max-width: 1098px) {
   .gradient-container {
     display: grid;
@@ -1243,6 +1255,12 @@ code {
     margin-top: 50px;
     grid-template-columns: 0.2fr 5fr 0.2fr;
     grid-template-rows: 0.6fr 0.6fr 0.4fr;
+  }
+}
+
+@media (max-width: 1012px) {
+  .gradient-name {
+    font-size: 77%;
   }
 }
 
@@ -1284,7 +1302,7 @@ code {
   }
 
   .alberta-logo{
-    margin-bottom: 30%;
+    margin-bottom: 20%;
   }
 }
 
@@ -1305,6 +1323,10 @@ code {
   grid-template-rows: 0.63fr 0.6fr 0.4fr;
 }
 
+.ecoeats-logo {
+  margin-top: 20%;
+}
+
 @media (max-width: 1098px) {
   .ecoeats-container {
     display: grid;
@@ -1321,6 +1343,10 @@ code {
     margin-top: 50px;
     grid-template-columns: 0.2fr 5fr 0.2fr;
     grid-template-rows: 0.63fr 0.6fr 0.4fr;
+  }
+
+  .ecoeats-logo {
+    margin-bottom: 20%;
   }
 }
 /* CURRENTLY 1098px is where top container project row gets out of alignment */

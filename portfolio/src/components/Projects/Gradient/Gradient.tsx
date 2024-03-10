@@ -35,10 +35,10 @@ const Gradient: React.FC = () => {
           </div>
         </div>
         <div className="firealertrow-three">
-          <div className="thriftaid-name" style={{gridRow: "1", fontFamily: "Fira Code", position: "relative", fontSize: "83%", fontWeight: "600", color: "white"}}>
+          <div className="gradient-name" style={{gridRow: "1", fontFamily: "Fira Code", position: "relative", fontWeight: "600", color: "white"}}>
           Gradient is a web application that aims to make studying more enjoyable. It has features such as a leaderboard, timer, and an AI tool that improves notes by making them more simple, eloquent, and better formatted.
           </div>
-          <a href="https://github.com/nopunindented/Fire-Alert">
+          <a href="https://github.com/Sugarnetes/Gradient">
           <img src={link} alt="link" style={{gridRow: "2", position: "relative", width: "42%", marginTop: "20%"}}/>
           </a>
         </div>

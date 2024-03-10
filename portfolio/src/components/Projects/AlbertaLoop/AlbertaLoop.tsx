@@ -33,9 +33,9 @@ const AlbertaLoop: React.FC = () => {
         </div>
         <div className="firealertrow-three">
           <div className="thriftaid-name" style={{gridRow: "1", fontFamily: "Fira Code", position: "relative", fontSize: "83%", fontWeight: "600", color: "white"}}>
-          Led group of 5 members in developing software for pod communications & status systems and communication networks. Implemented UDP communication protocol and developed GUI to display status updates.
+          Led group of 5 members in developing software for pod communication networks and status systems. Implemented UDP communication between pod and computers, and developed GUI to display status.
           </div>
-          <a href="https://github.com/nopunindented/Fire-Alert">
+          <a href="https://github.com/albertaloop/T_SWE_2022_2023">
           <img src={link} alt="link" className= "alberta-logo" style={{gridRow: "2", position: "relative", width: "42%", marginTop: "20%"}}/>
           </a>
         </div>
