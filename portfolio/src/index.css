@@ -1039,6 +1039,31 @@ code {
   }
 }
 
+@media (max-width: 343px) {
+  .third-page {
+    display: grid;
+    background: rgb(10, 10, 10);;
+    height: 640vh;
+    background-position: 0% 700%;
+    grid-row: 3;
+    grid-template-columns: 0.55fr 3fr 0.55fr;
+    grid-template-rows: 0.6fr 0.9fr;
+  }
+}
+
+@media (max-width: 326px) {
+  .third-page {
+    display: grid;
+    background: rgb(10, 10, 10);;
+    height: 650vh;
+    width: 102vw;
+    background-position: 0% 700%;
+    grid-row: 3;
+    grid-template-columns: 0.45fr 3fr 0.45fr;
+    grid-template-rows: 0.6fr 0.9fr;
+  }
+}
+
 .thriftaid-container {
   display: grid;
   place-items: center;
@@ -1321,6 +1346,16 @@ code {
     grid-template-rows: 0.6fr 0.6fr 0.4fr;
   }
 }
+
+.voltscript-logo {
+  margin-top: 20%;
+}
+
+@media (max-width: 359px) {
+  .voltscript-logo {
+    margin-bottom: 25%;
+  }
+}
 /* color: rgb(33, 181, 222); */
 
 .voltscript-container.hovered {
@@ -1550,6 +1585,26 @@ code {
 
   .firealertrow-four {
     font-size: 82%;
+  }
+}
+
+@media (max-width: 400) {
+  .thriftaidrow-four {
+    font-size: 75%;
+  }
+
+  .firealertrow-four {
+    font-size: 75%;
+  }
+}
+
+.voltscript-name {
+  font-size: 300%;
+}
+
+@media (max-width: 441px) {
+  .voltscript-name {
+    font-size: 230%;
   }
 }
 /* 853 for 1 column view */
