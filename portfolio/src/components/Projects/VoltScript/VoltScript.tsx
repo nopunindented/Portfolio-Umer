@@ -37,7 +37,7 @@ const VoltScript: React.FC = () => {
           VoltScript is a VS Code extension mean to calculate the cost of the electricity from running code. The ideal use case for this project would be for LLM (AI) queries run on your CPU.
           </div>
           <a href="https://github.com/nopunindented/VoltScript">
-            <img src={link} alt="link" style={{gridRow: "2", position: "relative", width: "42%", marginTop: "20%"}}/>
+            <img src={link} alt="link" className= "voltscript-logo" style={{gridRow: "2", position: "relative", width: "42%", marginTop: "20%"}}/>
           </a>
         </div>
         <div className="firealertrow-four">
