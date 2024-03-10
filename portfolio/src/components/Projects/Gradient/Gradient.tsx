@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import './../projects.css';
+import './../../../index.css';
 import link from './../link.png'
 import logo from './gradient.png'
 

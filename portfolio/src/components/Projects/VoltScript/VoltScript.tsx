@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import './../projects.css';
+import './../../../index.css';
 import link from './../link.png'
 
 const VoltScript: React.FC = () => {
@@ -33,7 +33,7 @@ const VoltScript: React.FC = () => {
           </div>
         </div>
         <div className="thriftaidrow-three">
-          <div className="thriftaid-name" style={{gridRow: "1", fontFamily: "Fira Code", position: "relative", fontSize: "95%", fontWeight: "600", color: "white"}}>
+          <div className="thriftaid-name" style={{gridRow: "1", fontFamily: "Fira Code", position: "relative", fontSize: "83%", fontWeight: "600", color: "white"}}>
           VoltScript is a VS Code extension mean to calculate the cost of the electricity from running code. The ideal use case for this project would be for LLM (AI) queries run on your CPU.
           </div>
           <a href="https://github.com/nopunindented/VoltScript">

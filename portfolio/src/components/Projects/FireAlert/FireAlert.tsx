@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import './../projects.css';
+import './../../../index.css';
 import link from './../link.png'
 
 const FireAlert: React.FC = () => {
@@ -35,7 +35,7 @@ const FireAlert: React.FC = () => {
           </div>
         </div>
         <div className="firealertrow-three">
-          <div className="thriftaid-name" style={{gridRow: "1", fontFamily: "Fira Code", position: "relative", fontSize: "83%", fontWeight: "600", color: "white"}}>
+          <div className="thriftaid-name" style={{gridRow: "1", fontFamily: "Fira Code", position: "relative", fontSize: "80%", fontWeight: "600", color: "white"}}>
           Fire Alert is an android app providing real-time fire alerts to people, such as farmers, in remote areas. You select a location & the app provides SMS notifications if a fire is within a certain distance of the location.
           </div>
           <a href="https://github.com/nopunindented/Fire-Alert">
