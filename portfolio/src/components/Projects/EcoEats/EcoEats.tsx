@@ -32,7 +32,7 @@ const EcoEats: React.FC = () => {
         </div>
         <div className="firealertrow-three">
           <div className="thriftaid-name" style={{gridRow: "1", fontFamily: "Fira Code", position: "relative", fontSize: "83%", fontWeight: "600", color: "white"}}>
-          EcoEats is an android app that a measures of the environmental impact of recipes. The user enters a dish they wish to find recipes on, the app selects the top 3 recipes on google, and returns their net carbon footprints.
+          EcoEats is an android app that measures the environmental impact of recipes. The user enters a dish to find recipes on, the app selects the top 3 recipes on google, and returns their carbon footprints.
           </div>
           <a href="https://github.com/nopunindented/Fire-Alert">
           <img src={link} alt="link" style={{gridRow: "2", position: "relative", width: "42%", marginTop: "20%"}}/>

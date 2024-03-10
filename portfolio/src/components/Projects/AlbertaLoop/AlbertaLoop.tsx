@@ -33,10 +33,10 @@ const AlbertaLoop: React.FC = () => {
         </div>
         <div className="firealertrow-three">
           <div className="thriftaid-name" style={{gridRow: "1", fontFamily: "Fira Code", position: "relative", fontSize: "83%", fontWeight: "600", color: "white"}}>
-          Fire Alert is an android app providing real-time fire alerts to people, such as farmers, in remote areas. You select a location & the app provides SMS notifications if a fire is within a certain distance of the location.
+          Lead group of 5 members in developing software for pod communications & status systems and communication networks. Implemented UDP communication protocol and developed GUI to display status updates.
           </div>
           <a href="https://github.com/nopunindented/Fire-Alert">
-          <img src={link} alt="link" style={{gridRow: "2", position: "relative", width: "42%", marginTop: "20%"}}/>
+          <img src={link} alt="link" className= "alberta-logo" style={{gridRow: "2", position: "relative", width: "42%", marginTop: "20%"}}/>
           </a>
         </div>
         <div className="firealertrow-four">
