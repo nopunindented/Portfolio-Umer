@@ -36,10 +36,10 @@ const Gradient: React.FC = () => {
         </div>
         <div className="firealertrow-three">
           <div className="gradient-name" style={{gridRow: "1", fontFamily: "Fira Code", position: "relative", fontWeight: "600", color: "white"}}>
-          Gradient is a web application that aims to make studying more enjoyable. It has features such as a leaderboard, timer, and an AI tool that improves notes by making them more simple, eloquent, and better formatted.
+          Gradient is a web application that aims to make studying more enjoyable. It has features such as a leaderboard and an AI tool that makes study notes more simple, eloquent, and better formatted.
           </div>
           <a href="https://github.com/Sugarnetes/Gradient">
-          <img src={link} alt="link" style={{gridRow: "2", position: "relative", width: "42%", marginTop: "20%"}}/>
+          <img src={link} alt="link" className="gradient-logo" style={{gridRow: "2", position: "relative", width: "42%", marginTop: "20%"}}/>
           </a>
         </div>
         <div className="firealertrow-four">

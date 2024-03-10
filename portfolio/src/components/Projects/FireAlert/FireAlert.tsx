@@ -36,7 +36,7 @@ const FireAlert: React.FC = () => {
         </div>
         <div className="firealertrow-three">
           <div className="firealert-name" style={{gridRow: "1", fontFamily: "Fira Code", position: "relative", fontWeight: "600", color: "white"}}>
-          Fire Alert is an android app providing real-time fire alerts to people, such as farmers, in remote areas. You select a location & the app provides SMS notifications if a fire is within a certain distance of the location.
+          Android app delivering real-time fire alerts to remote areas. Choose a location, receive SMS notifications if a fire is nearby. Ideal for farmers in isolated regions.
           </div>
           <a href="https://github.com/nopunindented/Fire-Alert">
           <img src={link} alt="link" className="firealert-logo" style={{gridRow: "2", position: "relative", width: "42%"}}/>
