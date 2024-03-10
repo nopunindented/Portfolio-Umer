@@ -982,6 +982,27 @@ code {
   }
 }
 
+@media (max-width: 853px) {
+  .third-page {
+    display: grid;
+    background: rgb(10, 10, 10);;
+    height: 630vh;
+    background-position: 0% 700%;
+    grid-row: 3;
+    grid-template-columns: 0.55fr 3fr 0.55fr;
+    grid-template-rows: 0.75fr 0.9fr;
+  }
+
+  .project-container {
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.4fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 0.1fr;
+  }
+
+}
+
 .thriftaid-container {
   display: grid;
   place-items: center;
@@ -1023,6 +1044,27 @@ code {
   .thriftaid-logo {
     margin-top: 15%;
   }
+}
+
+@media (max-width: 853px) {
+  .thriftaid-container {
+    display: grid;
+    place-items: center;
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 2%;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px rgba(216, 191, 191, 0.6);
+    grid-column: 1;
+    grid-row: 3;
+    width: 90%;
+    left: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    grid-template-columns: 0.2fr 5fr 0.2fr;
+    grid-template-rows: 0.63fr 0.6fr 0.4fr;
+  }
+
 }
 
 .thriftaid-container.hovered {
@@ -1119,6 +1161,26 @@ code {
     margin-top: 15%;
   }
 }
+
+@media (max-width: 853px) {
+  .firealert-container {
+    display: grid;
+    place-items: center;
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 2%;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px rgba(216, 191, 191, 0.6);
+    grid-column: 1;
+    grid-row: 2;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    grid-template-columns: 0.2fr 5fr 0.2fr;
+    grid-template-rows: 0.63fr 0.6fr 0.4fr;
+  }
+}
 /* Consider using for laptop sizes: grid-template-rows: 14rem 13.5rem 9.6rem; */
 
 .firealertrow-two{
@@ -1201,6 +1263,25 @@ code {
     grid-template-rows: 0.6fr 0.6fr 0.4fr;
   }
 }
+
+@media (max-width: 853px) {
+  .voltscript-container {
+    display: grid;
+    place-items: center;
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 2%;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px rgba(216, 191, 191, 0.6);
+    grid-column: 1;
+    grid-row: 1;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    grid-template-columns: 0.2fr 5fr 0.2fr;
+    grid-template-rows: 0.6fr 0.6fr 0.4fr;
+  }
+}
 /* color: rgb(33, 181, 222); */
 
 .voltscript-container.hovered {
@@ -1258,6 +1339,26 @@ code {
   }
 }
 
+@media (max-width: 853px) {
+  .gradient-container {
+    display: grid;
+    place-items: center;
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 2%;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px rgba(216, 191, 191, 0.6);
+    grid-column: 1;
+    grid-row: 4;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    grid-template-columns: 0.2fr 5fr 0.2fr;
+    grid-template-rows: 0.7fr 0.7fr 0.5fr;
+  }
+}
+
 @media (max-width: 1012px) {
   .gradient-name {
     font-size: 77%;
@@ -1306,6 +1407,27 @@ code {
   }
 }
 
+@media (max-width: 853px) {
+  .albertaloop-container {
+    display: grid;
+    place-items: center;
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 2%;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px rgba(216, 191, 191, 0.6);
+    grid-column: 1;
+    grid-row: 5;
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    left: 0;
+    margin-top: 50px;
+    grid-template-columns: 0.2fr 5fr 0.2fr;
+    grid-template-rows: 0.63fr 0.6fr 0.4fr;
+  }
+}
+
 .ecoeats-container {
   display: grid;
   place-items: center;
@@ -1350,6 +1472,26 @@ code {
   }
 }
 
+@media (max-width: 853px) {
+  .ecoeats-container {
+    display: grid;
+    place-items: center;
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 2%;
+    overflow: hidden;
+    box-shadow: 0px 0px 8px rgba(216, 191, 191, 0.6);
+    grid-column: 1;
+    grid-row: 6;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    grid-template-columns: 0.2fr 5fr 0.2fr;
+    grid-template-rows: 0.63fr 0.6fr 0.4fr;
+  }
+}
+
 @media (max-width: 934px) {
   .thriftaidrow-four {
     font-size: 82%;
@@ -1359,4 +1501,4 @@ code {
     font-size: 82%;
   }
 }
-/* CURRENTLY 1098px is where top container project row gets out of alignment */
+/* 853 for 1 column view */
