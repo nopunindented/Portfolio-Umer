@@ -25,14 +25,14 @@ const EcoEats: React.FC = () => {
     <>
       <div className={`ecoeats-container ${isHovered ? 'hovered' : ''}`} onMouseEnter={handleHover} onMouseLeave={handleMouseLeave}>
         <div className="thriftaidrow-two" >
-        <img src={logo} alt="thriftaid logo" style={{gridRow: "1", position: "relative", width: "40%"}}/>
+        <img src={logo} alt="thriftaid logo" style={{gridRow: "1", position: "relative", width: "50%"}}/>
           <div className="thriftaid-name" style={{gridRow: "2", fontFamily: "Space Grotesk, sans-serif", position: "relative", fontSize: "200%", fontWeight: "600", color: "rgb(216, 191, 191)"}}>
             EcoEats
           </div>
         </div>
         <div className="firealertrow-three">
           <div className="thriftaid-name" style={{gridRow: "1", fontFamily: "Fira Code", position: "relative", fontSize: "83%", fontWeight: "600", color: "white"}}>
-          Fire Alert is an android app providing real-time fire alerts to people, such as farmers, in remote areas. You select a location & the app provides SMS notifications if a fire is within a certain distance of the location.
+          EcoEats is an android app that a measures of the environmental impact of recipes. The user enters a dish they wish to find recipes on, the app selects the top 3 recipes on google, and returns their net carbon footprints.
           </div>
           <a href="https://github.com/nopunindented/Fire-Alert">
           <img src={link} alt="link" style={{gridRow: "2", position: "relative", width: "42%", marginTop: "20%"}}/>
