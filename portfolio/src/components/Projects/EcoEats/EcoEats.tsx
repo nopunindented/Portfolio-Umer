@@ -1,9 +1,9 @@
 import React, {useState} from "react";
 import './../projects.css';
 import link from './../link.png'
-import logo from './albertaloop.png'
+import logo from './ecoeats.png'
 
-const AlbertaLoop: React.FC = () => {
+const EcoEats: React.FC = () => {
   const [isHovered, setIsHovered] = useState<boolean>(false);
 
   const handleHover = () => {
@@ -16,19 +16,18 @@ const AlbertaLoop: React.FC = () => {
 
   const skills = [
     'Python',
-    'C++',
-    'PyQt',
-    'UDP',
-
+    'Kivy',
+    'BeautifulSoup',
+    'NLP'
   ];
 
   return (
     <>
-      <div className={`albertaloop-container ${isHovered ? 'hovered' : ''}`} onMouseEnter={handleHover} onMouseLeave={handleMouseLeave}>
+      <div className={`ecoeats-container ${isHovered ? 'hovered' : ''}`} onMouseEnter={handleHover} onMouseLeave={handleMouseLeave}>
         <div className="thriftaidrow-two" >
         <img src={logo} alt="thriftaid logo" style={{gridRow: "1", position: "relative", width: "40%"}}/>
           <div className="thriftaid-name" style={{gridRow: "2", fontFamily: "Space Grotesk, sans-serif", position: "relative", fontSize: "200%", fontWeight: "600", color: "rgb(216, 191, 191)"}}>
-            AlbertaLoop
+            EcoEats
           </div>
         </div>
         <div className="firealertrow-three">
@@ -51,4 +50,4 @@ const AlbertaLoop: React.FC = () => {
   );
 };
 
-export default AlbertaLoop;
+export default EcoEats;

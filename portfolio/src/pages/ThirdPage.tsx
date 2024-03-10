@@ -5,6 +5,7 @@ import FireAlert from '../components/Projects/FireAlert/FireAlert';
 import VoltScript from '../components/Projects/VoltScript/VoltScript';
 import Gradient from '../components/Projects/Gradient/Gradient';
 import AlbertaLoop from '../components/Projects/AlbertaLoop/AlbertaLoop';
+import EcoEats from '../components/Projects/EcoEats/EcoEats';
 
 const ThirdPage: React.FC = () => {
   return (
@@ -17,6 +18,7 @@ const ThirdPage: React.FC = () => {
           <FireAlert />
           <Gradient />
           <AlbertaLoop />
+          <EcoEats />
         </div>
       </div>
     </>
