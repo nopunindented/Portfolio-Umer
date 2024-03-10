@@ -1349,4 +1349,14 @@ code {
     margin-bottom: 20%;
   }
 }
+
+@media (max-width: 934px) {
+  .thriftaidrow-four {
+    font-size: 82%;
+  }
+
+  .firealertrow-four {
+    font-size: 82%;
+  }
+}
 /* CURRENTLY 1098px is where top container project row gets out of alignment */
