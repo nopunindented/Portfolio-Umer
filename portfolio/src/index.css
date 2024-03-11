@@ -946,7 +946,7 @@ code {
 
 .third-page {
   display: grid;
-  background: rgb(10, 10, 10);;
+  background: rgb(10, 10, 10);
   height: 250vh;
   background-position: 0% 700%;
   grid-row: 3;
@@ -1701,10 +1701,61 @@ code {
 
 .fourth-page {
   display: grid;
-  background: black;
+  background: rgb(5, 5, 5);
   height: 250vh;
   background-position: 0% 700%;
   grid-row: 3;
   grid-template-columns: 0.2fr 3fr 0.2fr;
   grid-template-rows: 0.25fr 0.9fr;
+}
+
+.extracurricular-container {
+  display: grid;
+  grid-column: 2;
+  grid-row: 2;
+  grid-template-columns: 0.1fr 1fr 0.1fr;
+  grid-template-rows: 0.8fr 0.9fr 0.9fr 0.2fr;
+}
+
+.president-container {
+  display: grid;
+  position: relative;
+  box-sizing: border-box;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.05fr 0.05fr 0.05fr 1fr; /* Adjust as needed */
+
+  grid-row: 1;
+  grid-column: 2;
+  border-left: 1px solid white;
+}
+
+.president-date {
+  grid-row: 1;
+  grid-column: 1;
+  font-weight: 700;
+  font-size: 100%;
+  text-align: left;
+  margin-left: 20px;
+  color: #9737d2;
+}
+.president-position {
+  grid-row: 2;
+  grid-column: 1;
+  color: white;
+  text-align: left;
+  margin-left: 20px;
+  font-size: 130%;
+  font-family: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
+  font-weight: 650;
+}
+
+.president-club {
+  grid-row: 3;
+  grid-column: 1;
+  color: white;
+  text-align: left;
+  margin-left: 20px;
+  font-size: 110%;
+  font-family: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
+  font-weight: 650;
 }
