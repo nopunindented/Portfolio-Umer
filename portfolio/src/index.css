@@ -952,6 +952,7 @@ code {
   grid-row: 3;
   grid-template-columns: 0.2fr 3fr 0.2fr;
   grid-template-rows: 0.25fr 0.9fr;
+  border-bottom: 1px solid #3b3b3b; /* Add a 1px solid gray border */
 }
 
 .project-container {
@@ -1697,3 +1698,13 @@ code {
   box-shadow: 0px 0px 10px rgba(216, 191, 191, 1.2);
 }
 /* 853 for 1 column view */
+
+.fourth-page {
+  display: grid;
+  background: black;
+  height: 250vh;
+  background-position: 0% 700%;
+  grid-row: 3;
+  grid-template-columns: 0.2fr 3fr 0.2fr;
+  grid-template-rows: 0.25fr 0.9fr;
+}

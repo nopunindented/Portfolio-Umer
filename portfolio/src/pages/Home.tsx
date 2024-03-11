@@ -2,6 +2,7 @@ import React from "react";
 import SlideAnimation from "../components/SlideAnimation";
 import SecondPage from "./SecondPage";
 import ThirdPage from "./ThirdPage";
+import FourthPage from './FourthPage'
 
 const HomePage: React.FC = () => {
   return (
@@ -10,6 +11,7 @@ const HomePage: React.FC = () => {
         <SlideAnimation />
         <SecondPage />
         <ThirdPage />
+        <FourthPage />
       </div>
     </div>
   );
