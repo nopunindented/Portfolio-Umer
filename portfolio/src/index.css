@@ -1714,7 +1714,7 @@ code {
   grid-column: 2;
   grid-row: 2;
   grid-template-columns: 0.001fr 1fr 0.1fr;
-  grid-template-rows: 0.55fr 0.55fr 0.55fr 0.1fr 0.2fr;
+  grid-template-rows: 0.55fr 0.55fr 0.45fr 0.1fr 0.2fr;
 }
 
 .president-container {
@@ -1858,6 +1858,7 @@ code {
   grid-row: 4;
   grid-column: 2;
   border-left: 1px solid white;
+  margin-bottom: 40px;
 }
 
 .parent-circle4-container {
