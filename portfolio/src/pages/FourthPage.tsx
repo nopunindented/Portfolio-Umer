@@ -3,6 +3,7 @@ import './../index.css';
 import President from '../components/Experiences/President';
 import External from '../components/Experiences/External';
 import Rep from '../components/Experiences/Rep';
+import Software from '../components/Experiences/Software';
 
 const FourthPage: React.FC = () => {
   return (
@@ -20,6 +21,10 @@ const FourthPage: React.FC = () => {
           </div>
           <Rep />
           <div className='parent-circle3-container'>
+            <div className='first-circle' />
+          </div>
+          <Software />
+          <div className='parent-circle4-container'>
             <div className='first-circle' />
           </div>
         </div>

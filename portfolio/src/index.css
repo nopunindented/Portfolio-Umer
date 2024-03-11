@@ -1714,7 +1714,7 @@ code {
   grid-column: 2;
   grid-row: 2;
   grid-template-columns: 0.001fr 1fr 0.1fr;
-  grid-template-rows: 0.6fr 0.6fr 0.7fr 0.7fr 0.2fr;
+  grid-template-rows: 0.55fr 0.55fr 0.55fr 0.1fr 0.2fr;
 }
 
 .president-container {
@@ -1845,5 +1845,27 @@ code {
   position: relative;
   grid-column: 1;
   grid-row: 3;
+  left: 4%;
+}
+
+.software-container {
+  display: grid;
+  position: relative;
+  box-sizing: border-box;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.05fr 0.05fr 0.05fr 1fr; /* Adjust as needed */
+
+  grid-row: 4;
+  grid-column: 2;
+  border-left: 1px solid white;
+}
+
+.parent-circle4-container {
+  /* Set a fixed aspect ratio for the parent container */
+  width: 200px;
+  height: 200px;
+  position: relative;
+  grid-column: 1;
+  grid-row: 4;
   left: 4%;
 }
