@@ -1705,7 +1705,7 @@ code {
   height: 250vh;
   background-position: 0% 700%;
   grid-row: 3;
-  grid-template-columns: 0.2fr 3fr 0.2fr;
+  grid-template-columns: 0.1fr 3fr 0.2fr;
   grid-template-rows: 0.25fr 0.9fr;
 }
 
@@ -1736,7 +1736,7 @@ code {
   font-size: 100%;
   text-align: left;
   margin-left: 20px;
-  color: #9737d2;
+  color: #9942cf;
 }
 .president-position {
   grid-row: 2;
@@ -1752,10 +1752,33 @@ code {
 .president-club {
   grid-row: 3;
   grid-column: 1;
-  color: white;
+  color: rgb(168, 168, 168);
   text-align: left;
   margin-left: 20px;
   font-size: 110%;
   font-family: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
   font-weight: 650;
+}
+
+.president-points{
+  grid-row: 4;
+  grid-column: 1;
+
+  position: relative;
+  list-style-type: none;
+  font-family: "Fira Code";
+  font-size: 91%;
+  top: 5%;
+  color: rgb(235, 197, 252);
+  left: 2%;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+}
+
+.president-points li {
+  margin-left: 30px;
+  text-indent: 0; /* Adjust the indent as needed */
+  text-align: left;
+  list-style: disc; /* Set the list style explicitly */
 }
