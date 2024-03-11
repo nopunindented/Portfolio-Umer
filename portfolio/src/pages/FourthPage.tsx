@@ -10,7 +10,13 @@ const FourthPage: React.FC = () => {
         <div className="work-header">Extracurriculars</div>
         <div className='extracurricular-container'>
           <President />
+          <div className='parent-circle-container'>
+            <div className='first-circle' />
+          </div>
           <External />
+          <div className='parent-circle2-container'>
+            <div className='second-circle' />
+          </div>
         </div>
       </div>
     </>
