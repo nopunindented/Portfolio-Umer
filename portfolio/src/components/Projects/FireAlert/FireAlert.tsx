@@ -30,7 +30,7 @@ const FireAlert: React.FC = () => {
           <div className="thriftaid-logo" style={{gridRow: "1", fontFamily: "Oswald", fontSize:"300%", color: "#FF8928", position: "relative"}}>
             Fire Alert!
           </div>
-          <div className="thriftaid-name" style={{gridRow: "2", fontFamily: "Space Grotesk, sans-serif", position: "relative", fontSize: "200%", fontWeight: "600", color: "rgb(216, 191, 191)"}}>
+          <div className="firealert-name" style={{gridRow: "2", fontFamily: "Space Grotesk, sans-serif", position: "relative", fontSize: "200%", fontWeight: "600"}}>
             Fire Alert
           </div>
         </div>

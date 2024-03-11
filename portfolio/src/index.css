@@ -1071,7 +1071,7 @@ code {
   position: relative;
   border-radius: 2%;
   overflow: hidden;
-  box-shadow: 0px 0px 8px rgba(216, 191, 191, 0.6);
+  box-shadow: 0px 0px 8px rgba(210, 168, 168, 0.7);
   grid-column: 3;
   grid-row: 1;
   width: 90%;
@@ -1172,7 +1172,7 @@ code {
 /* Adjusted styling for row-four content */
 .thriftaidrow-four div {
   background-color: black;
-  color: rgb(216, 191, 191);
+  color: rgb(210, 168, 168);
   display: inline-block;
   margin: 5px;
   padding: 5px;
@@ -1186,7 +1186,7 @@ code {
   position: relative;
   border-radius: 2%;
   overflow: hidden;
-  box-shadow: 0px 0px 8px rgba(216, 191, 191, 0.6);
+  box-shadow: 0px 0px 8px rgba(210, 168, 168, 0.7);
   grid-column: 2;
   grid-row: 1;
   width: 90%;
@@ -1286,7 +1286,7 @@ code {
 /* Adjusted styling for row-four content */
 .firealertrow-four div {
   background-color: black;
-  color: rgb(216, 191, 191);
+  color: rgb(210, 168, 168);
   display: inline-block;
   margin: 5px;
   padding: 5px;
@@ -1294,14 +1294,80 @@ code {
   font-size: 85%;
 }
 
+.firealert-name {
+  color: rgb(210, 168, 168);
+}
+
+.thriftaid-name {
+  color: rgb(210, 168, 168);
+}
+
+.gradient-name {
+  color: rgb(210, 168, 168);
+}
+
+.albertaloop-name {
+  color: rgb(210, 168, 168);
+}
+
+.ecoeats-name {
+  color: rgb(210, 168, 168);
+}
+
+.voltscript-name {
+  color: rgb(210, 168, 168);
+}
+
+.thriftaid-container.hovered .thriftaid-name {
+  color: rgb(216, 191, 191);
+}
+
+.firealert-container.hovered .firealert-name {
+  color: rgb(216, 191, 191);
+}
+
+.voltscript-container.hovered .voltscript-name {
+  color: rgb(216, 191, 191);
+}
+
+.ecoeats-container.hovered .ecoeats-name {
+  color: rgb(216, 191, 191);
+}
+
+.gradient-container.hovered .gradient-name {
+  color: rgb(216, 191, 191);
+}
+
+.albertaloop-container.hovered .albertaloop-name {
+  color: rgb(216, 191, 191);
+}
+
 .firealert-container.hovered .firealertrow-four div {
-  background-color: black;
-  color: rgb(235, 209, 209);
-  display: inline-block;
-  margin: 5px;
-  padding: 5px;
-  border-radius: 6px;
-  font-size: 85%;
+  color: rgb(216, 191, 191);
+}
+
+.firealert-container.hovered .firealert-name {
+  color: rgb(216, 191, 191);
+}
+
+.voltscript-container.hovered .firealertrow-four div {
+  color: rgb(216, 191, 191);
+}
+
+.thriftaid-container.hovered .thriftaidrow-four div {
+  color: rgb(216, 191, 191);
+}
+
+.gradient-container.hovered .firealertrow-four div {
+  color: rgb(216, 191, 191);
+}
+
+.ecoeats-container.hovered .firealertrow-four div {
+  color: rgb(216, 191, 191);
+}
+
+.albertaloop-container.hovered .firealertrow-four div {
+  color: rgb(216, 191, 191);
 }
 
 .voltscript-container {
@@ -1311,7 +1377,7 @@ code {
   position: relative;
   border-radius: 2%;
   overflow: hidden;
-  box-shadow: 0px 0px 8px rgba(216, 191, 191, 0.6);
+  box-shadow: 0px 0px 8px rgba(210, 168, 168, 0.7);
   grid-column: 1;
   grid-row: 1;
   width: 90%;
@@ -1390,7 +1456,7 @@ code {
   position: relative;
   border-radius: 2%;
   overflow: hidden;
-  box-shadow: 0px 0px 8px rgba(216, 191, 191, 0.6);
+  box-shadow: 0px 0px 8px rgba(210, 168, 168, 0.7);
   grid-column: 1;
   grid-row: 2;
   width: 90%;
@@ -1460,7 +1526,7 @@ code {
   position: relative;
   border-radius: 2%;
   overflow: hidden;
-  box-shadow: 0px 0px 8px rgba(216, 191, 191, 0.6);
+  box-shadow: 0px 0px 8px rgba(210, 168, 168, 0.7);
   grid-column: 2;
   grid-row: 2;
   width: 90%;
@@ -1527,7 +1593,7 @@ code {
   position: relative;
   border-radius: 2%;
   overflow: hidden;
-  box-shadow: 0px 0px 8px rgba(216, 191, 191, 0.6);
+  box-shadow: 0px 0px 8px rgba(210, 168, 168, 0.7);
   grid-column: 3;
   grid-row: 2;
   width: 90%;
@@ -1617,6 +1683,7 @@ code {
     font-size: 230%;
   }
 }
+
 
 .gradient-container.hovered {
   box-shadow: 0px 0px 10px rgba(216, 191, 191, 1.2);

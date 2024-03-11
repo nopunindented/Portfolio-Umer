@@ -28,7 +28,7 @@ const VoltScript: React.FC = () => {
         <div className="voltscript-name" style={{ display: "flex", flexDirection: "row", alignItems: "center", fontFamily: "Verdana", fontWeight: "50", color: "rgb(33, 181, 222)", position: "relative" }}>
           Volt<span style={{ fontWeight: "600", marginLeft: "1%" }}>Script</span>
         </div>
-          <div className="thriftaid-name" style={{gridRow: "2", fontFamily: "Space Grotesk, sans-serif", position: "relative", fontSize: "200%", fontWeight: "600", color: "rgb(216, 191, 191)"}}>
+          <div className="voltscript-name" style={{gridRow: "2", fontFamily: "Space Grotesk, sans-serif", position: "relative", fontSize: "200%", fontWeight: "600"}}>
             VoltScript
           </div>
         </div>
