@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import GridHeader from "./components/GridHeader";
 import SlideAnimation from "./components/SlideAnimation";
@@ -8,32 +8,43 @@ import FourthPage from "./pages/FourthPage";
 import NoPage from "./pages/NoPage";
 
 function App() {
-  const [currentPath, setCurrentPath] = useState(window.location.pathname);
+  const [currentPath, setCurrentPath] = useState(getPath());
 
-  const handlePathChange = () => {
-    setCurrentPath(window.location.pathname);
+  useEffect(() => {
+    const handlePathChange = () => {
+      setCurrentPath(getPath());
+    };
+
+    window.addEventListener("popstate", handlePathChange);
+
+    return () => {
+      window.removeEventListener("popstate", handlePathChange);
+    };
+  }, []);
+
+  function getPath() {
+    const path = window.location.pathname;
+    return path + window.location.hash;
+  }
+
+  const isValidPath = (path: string) => {
+    const validPaths = ["/", "/#workexperience", "/#projects", "/#extracurriculars", "/#home"];
+    return validPaths.includes(path);
   };
 
-  window.addEventListener("popstate", handlePathChange);
-
   const renderPage = () => {
-    switch (currentPath) {
-      case "/":
-      case "/#workexperience":
-      case "/#projects":
-      case "/#extracurriculars":
-      case "/#home":
-        return (
-          <>
-            <SlideAnimation />
-            <SecondPage />
-            <ThirdPage />
-            <FourthPage />
-            <GridHeader />
-          </>
-        );
-      default:
-        return <NoPage />;
+    if (isValidPath(currentPath)) {
+      return (
+        <>
+          <SlideAnimation />
+          <SecondPage />
+          <ThirdPage />
+          <FourthPage />
+          <GridHeader />
+        </>
+      );
+    } else {
+      return <NoPage />;
     }
   };
 
