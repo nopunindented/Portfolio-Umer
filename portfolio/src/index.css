@@ -25,7 +25,7 @@ code {
   background-size: 400% 400%;
   animation: gradient 20s ease infinite;
   height: 120vh;
-  grid-template-columns: 0.85fr 3fr 0.4fr;
+  grid-template-columns: 0.86fr 3fr 0.4fr;
   grid-template-rows: 0.4fr 0.5fr 1.5fr 1fr;
   border-bottom: 1px solid #3b3b3b; /* Add a 1px solid gray border */
 }
@@ -128,9 +128,27 @@ code {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 689px) {
   .descript_intro {
     font-size: 90%;
+  }
+}
+
+@media (max-width: 548px) {
+  .bg {
+    grid-template-rows: 0.4fr 0.5fr 1.3fr 1.1fr;
+  }
+}
+
+@media (max-width: 505px) {
+  .descript_intro {
+    font-size: 88%;
+  }
+}
+
+@media (max-width: 493px) {
+  .descript_intro {
+    font-size: 83%;
   }
 }
 
@@ -292,7 +310,6 @@ code {
   font-size: 500%;
   font-family: "Calibri", sans-serif;
   color: #ffffff;
-  left: -0.5%;
   top: 35%;
 
   mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
@@ -1716,7 +1733,7 @@ code {
   background-position: 0% 700%;
   grid-row: 3;
   grid-template-columns: 0.1fr 7fr 0.1fr;
-  grid-template-rows: 0.25fr 0.9fr;
+  grid-template-rows: 0.2fr 0.9fr;
 }
 
 @media (max-width: 1067) {
