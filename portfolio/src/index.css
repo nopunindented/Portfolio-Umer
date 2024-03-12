@@ -9,6 +9,21 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   grid-template-rows: 3;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(233, 192, 255);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(120, 24, 255);
+  border-radius: 20px;
+  border: 3px solid rgb(233, 192, 255);
 }
 
 code {
@@ -1753,12 +1768,11 @@ code {
 .fourth-page {
   display: grid;
   background: rgb(1, 1, 1);
-  height: 280vh;
+  height: 290vh;
   background-position: 0% 700%;
   grid-row: 3;
   grid-template-columns: 0.1fr 7fr 0.1fr;
   grid-template-rows: 0.2fr 0.9fr;
-  border-bottom: 1px solid #3b3b3b; /* Add a 1px solid gray border */
 }
 
 @media (max-width: 1067) {
@@ -1778,36 +1792,36 @@ code {
   grid-column: 2;
   grid-row: 2;
   grid-template-columns: 0.001fr 1fr 0.1fr;
-  grid-template-rows: 0.7fr 0.62fr 0.53fr 0.4fr 0.2fr;
+  grid-template-rows: 0.7fr 0.62fr 0.53fr 0.4fr 0.1fr;
 }
 
 @media (max-width: 726px) {
   .extracurricular-container {
-    grid-template-rows: 0.73fr 0.55fr 0.43fr 0.1fr 0.2fr;
+    grid-template-rows: 0.73fr 0.55fr 0.43fr 0.1fr 0.1fr;
   }
 }
 
 @media (max-width: 695px) {
   .extracurricular-container {
-    grid-template-rows: 0.78fr 0.55fr 0.43fr 0.1fr 0.2fr;
+    grid-template-rows: 0.78fr 0.55fr 0.43fr 0.1fr 0.1fr;
   }
 }
 
 @media (max-width: 674px) {
   .extracurricular-container {
-    grid-template-rows: 0.8fr 0.55fr 0.43fr 0.1fr 0.2fr;
+    grid-template-rows: 0.8fr 0.55fr 0.43fr 0.1fr 0.1fr;
   }
 }
 
 @media (max-width: 653px) {
   .extracurricular-container {
-    grid-template-rows: 0.84fr 0.59fr 0.43fr 0.1fr 0.2fr;
+    grid-template-rows: 0.84fr 0.59fr 0.43fr 0.1fr 0.1fr;
   }
 }
 
 @media (max-width: 482px) {
   .extracurricular-container {
-    grid-template-rows: 0.8fr 0.59fr 0.43fr 0.1fr 0.2fr;
+    grid-template-rows: 0.8fr 0.59fr 0.43fr 0.15fr 0.1fr;
   }
 }
 
@@ -2530,4 +2544,13 @@ code {
     grid-template-rows: 0.15fr 1.2fr;
     height: 350vh;
   }
+}
+
+.footer {
+  position: relative;
+  grid-row: 5;
+  grid-column: 2;
+  font-size: 90%;
+  color: #3b3b3b;
+  place-items: center;
 }

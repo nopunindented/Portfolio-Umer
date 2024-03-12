@@ -29,6 +29,9 @@ const FourthPage: React.FC = () => {
           <div className='parent-circle4-container'>
             <div className='first-circle' />
           </div>
+          <div className='footer'>
+           Ⓒ 2024 Umer Fiaz. All Rights Reserved.
+          </div>
         </div>
       </div>
     </>
