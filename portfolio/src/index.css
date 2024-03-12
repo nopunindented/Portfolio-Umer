@@ -2683,7 +2683,7 @@ code {
 }
 
 a {
-  color: inherit; /* or specify your desired color */
+  color: inherit;
   text-decoration: none;
 }
 
