@@ -1726,7 +1726,7 @@ code {
   grid-column: 2;
   grid-row: 2;
   grid-template-columns: 0.001fr 1fr 0.1fr;
-  grid-template-rows: 0.68fr 0.55fr 0.43fr 0.1fr 0.2fr;
+  grid-template-rows: 0.68fr 0.62fr 0.53fr 0.4fr 0.2fr;
 }
 
 @media (max-width: 726px) {
@@ -1750,6 +1750,12 @@ code {
 @media (max-width: 653px) {
   .extracurricular-container {
     grid-template-rows: 0.84fr 0.59fr 0.43fr 0.1fr 0.2fr;
+  }
+}
+
+@media (max-width: 482px) {
+  .extracurricular-container {
+    grid-template-rows: 0.8fr 0.59fr 0.43fr 0.1fr 0.2fr;
   }
 }
 
@@ -2382,33 +2388,42 @@ code {
   }
 }
 
-@media (max-width: 355px) {
+@media (max-width: 365px) {
+  .extracurricular-container {
+      grid-template-rows: 0.94fr 0.69fr 0.53fr 0.1fr 0.2fr;
+  }
   .president-container {
-    font-size: 82%;
+    font-size: 80%;
     left: -5%;
   }
 
   .external-container {
-    font-size: 82%;
+    font-size: 80%;
     left: -5%;
   }
 
   .rep-container {
-    font-size: 82%;
+    font-size: 80%;
     left: -5%;
   }
 
   .software-container {
-    font-size: 82%;
+    font-size: 80%;
     left: -5%;
   }
+}
 
-  .extracurricular-container {
-    grid-template-columns: 0.001fr 1.5fr 0.1fr;
+@media (max-width: 359px) {
+  .fourth-page {
+    height: 320vh;
   }
+}
+
+@media (max-width: 356px) {
+  
   .parent-circle-container {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     position: relative;
     grid-column: 1;
     grid-row: 1;
@@ -2416,8 +2431,8 @@ code {
   }
   
   .parent-circle2-container {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     position: relative;
     grid-column: 1;
     grid-row: 2;
@@ -2441,8 +2456,8 @@ code {
   
   .parent-circle3-container {
     /* Set a fixed aspect ratio for the parent container */
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     position: relative;
     grid-column: 1;
     grid-row: 3;
@@ -2451,8 +2466,8 @@ code {
   
   .parent-circle4-container {
     /* Set a fixed aspect ratio for the parent container */
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     position: relative;
     grid-column: 1;
     grid-row: 4;
@@ -2460,6 +2475,7 @@ code {
   }
 
   .fourth-page {
-    grid-template-columns: 0.14fr 7fr 0.1fr;
+    grid-template-rows: 0.15fr 1.2fr;
+    height: 350vh;
   }
 }
