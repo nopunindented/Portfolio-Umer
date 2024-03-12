@@ -36,30 +36,40 @@ const GridHeader: React.FC = () => {
     <div className={`wrapper ${isOpen ? "open" : ""}`}>
       {screenSize.width > 550 ? (
         <>
+          <a href="#home">
           <div className="name_navbar">Muhammad Umer Fiaz</div>
+          </a>
+          <a href="#workexperience">
           <div className="work_navbar">Work Experience</div>
-          <div className="projects_navbar">Projects</div>
-          <a href="#fourth">
+          </a>
+          <a href="#projects">
+            <div className="projects_navbar">Projects</div>
+          </a>
+          <a href="#extracurriculars">
           <div className="extra_navbar">Extracurriculars</div>
           </a>
         </>
       ) : (
         <>
           <div className={`name_navbar_hamburger ${isOpen ? "open" : ""}`}>
-            Muhammad Umer Fiaz
+          <a href="#home">Muhammad Umer Fiaz</a>
             {isOpen ? (
               <>
+              <a href="#workexperience">
                 <div
                   className={`work_navbar_hamburger ${isOpen ? "open" : ""}`}
                 >
                   Work Experience
                 </div>
+                </a>
+                <a href="#projects">
                 <div
                   className={`projects_navbar_hamburger ${isOpen ? "open" : ""}`}
                 >
                   Projects
                 </div>
-                <a href="#fourth">
+                </a>
+                <a href="#extracurriculars">
                 <div
                   className={`extra_navbar_hamburger ${isOpen ? "open" : ""}`}
                 >

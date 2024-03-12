@@ -11,7 +11,7 @@ const SlideAnimation: React.FC = () => {
       <IconMenu />
       <DescriptIntro />
         <NameIntro />
-        <div className="typewriter-container">
+        <div id="home" className="typewriter-container">
           <TypingIntro />
         </div>
       </div>

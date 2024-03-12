@@ -2683,8 +2683,10 @@ code {
 }
 
 a {
+  color: inherit; /* or specify your desired color */
   text-decoration: none;
 }
+
 
 /* Extra media query */
 @media (max-width: 1024px) {

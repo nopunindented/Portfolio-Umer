@@ -7,7 +7,7 @@ import Painworth from "../components/Painworth";
 const SecondPage: React.FC = () => {
   return (
     <>
-      <div className="second-page">
+      <div id="workexperience" className="second-page">
         <div className="work-header">Work Experience</div>
         <Dayforce />
         <Subnet />

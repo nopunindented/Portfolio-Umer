@@ -10,7 +10,7 @@ import EcoEats from '../components/Projects/EcoEats/EcoEats';
 const ThirdPage: React.FC = () => {
   return (
     <>
-      <div className="third-page">
+      <div id="projects" className="third-page">
         <div className="work-header">Featured Projects</div>
         <div className='project-container'>
           <VoltScript />
