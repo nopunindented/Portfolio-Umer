@@ -1173,7 +1173,7 @@ code {
 /* Adjusted styling for row-four content */
 .thriftaidrow-four div {
   background-color: black;
-  color: rgb(210, 168, 168);
+  color: rgb(214, 180, 237);
   display: inline-block;
   margin: 5px;
   padding: 5px;
@@ -1320,55 +1320,55 @@ code {
 }
 
 .thriftaid-container.hovered .thriftaid-name {
-  color: rgb(216, 191, 191);
+  color: rgb(201, 164, 237);
 }
 
 .firealert-container.hovered .firealert-name {
-  color: rgb(216, 191, 191);
+  color: rgb(201, 164, 237);
 }
 
 .voltscript-container.hovered .voltscript-name {
-  color: rgb(216, 191, 191);
+  color: rgb(201, 164, 237);
 }
 
 .ecoeats-container.hovered .ecoeats-name {
-  color: rgb(216, 191, 191);
+  color: rgb(201, 164, 237);
 }
 
 .gradient-container.hovered .gradient-name {
-  color: rgb(216, 191, 191);
+  color: rgb(201, 164, 237);
 }
 
 .albertaloop-container.hovered .albertaloop-name {
-  color: rgb(216, 191, 191);
+  color: rgb(201, 164, 237);
 }
 
 .firealert-container.hovered .firealertrow-four div {
-  color: rgb(216, 191, 191);
+  color: rgb(226, 201, 244);
 }
 
 .firealert-container.hovered .firealert-name {
-  color: rgb(216, 191, 191);
+  color: rgb(226, 201, 244);
 }
 
 .voltscript-container.hovered .firealertrow-four div {
-  color: rgb(216, 191, 191);
+  color: rgb(226, 201, 244);
 }
 
 .thriftaid-container.hovered .thriftaidrow-four div {
-  color: rgb(216, 191, 191);
+  color: rgb(226, 201, 244);
 }
 
 .gradient-container.hovered .firealertrow-four div {
-  color: rgb(216, 191, 191);
+  color: rgb(226, 201, 244);
 }
 
 .ecoeats-container.hovered .firealertrow-four div {
-  color: rgb(216, 191, 191);
+  color: rgb(226, 201, 244);
 }
 
 .albertaloop-container.hovered .firealertrow-four div {
-  color: rgb(216, 191, 191);
+  color: rgb(226, 201, 244);
 }
 
 .voltscript-container {
