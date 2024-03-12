@@ -9,7 +9,9 @@ const FourthPage: React.FC = () => {
   return (
     <>
       <div className="fourth-page">
-        <div className="work-header">Extracurriculars</div>
+        <div className='extra-header-container'>
+          <div className="extra-header">Extracurriculars</div>
+        </div>
         <div className='extracurricular-container'>
           <President />
           <div className='parent-circle-container'>
