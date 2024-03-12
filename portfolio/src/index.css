@@ -269,7 +269,7 @@ code {
 
 .second-page {
   display: grid;
-  background: rgb(15, 15, 15);
+  background: rgb(9, 9, 9);
   height: 300vh;
   background-position: 0% 700%;
   grid-template-columns: 0.6fr 3fr 0.6fr;
@@ -946,7 +946,7 @@ code {
 
 .third-page {
   display: grid;
-  background: rgb(10, 10, 10);
+  background: rgb(4, 4, 4);
   height: 250vh;
   background-position: 0% 700%;
   grid-row: 3;
@@ -974,7 +974,7 @@ code {
 
   .third-page {
     display: grid;
-    background: rgb(10, 10, 10);;
+    background: rgb(4, 4, 4);
     height: 340vh;
     background-position: 0% 700%;
     grid-row: 3;
@@ -986,7 +986,7 @@ code {
 @media (max-width: 853px) {
   .third-page {
     display: grid;
-    background: rgb(10, 10, 10);;
+    background: rgb(4, 4, 4);
     height: 640vh;
     background-position: 0% 700%;
     grid-row: 3;
@@ -1006,7 +1006,7 @@ code {
 @media (max-width: 799px) {
   .third-page {
     display: grid;
-    background: rgb(10, 10, 10);;
+    background: rgb(4, 4, 4);
     height: 640vh;
     background-position: 0% 700%;
     grid-row: 3;
@@ -1018,7 +1018,7 @@ code {
 @media (max-width: 680px) {
   .third-page {
     display: grid;
-    background: rgb(10, 10, 10);;
+    background: rgb(4, 4, 4);
     height: 640vh;
     background-position: 0% 700%;
     grid-row: 3;
@@ -1031,7 +1031,7 @@ code {
 @media (max-width: 595px) {
   .third-page {
     display: grid;
-    background: rgb(10, 10, 10);;
+    background: rgb(4, 4, 4);
     height: 640vh;
     background-position: 0% 700%;
     grid-row: 3;
@@ -1043,7 +1043,7 @@ code {
 @media (max-width: 343px) {
   .third-page {
     display: grid;
-    background: rgb(10, 10, 10);;
+    background: rgb(4, 4, 4);
     height: 640vh;
     background-position: 0% 700%;
     grid-row: 3;
@@ -1055,7 +1055,7 @@ code {
 @media (max-width: 326px) {
   .third-page {
     display: grid;
-    background: rgb(10, 10, 10);;
+    background: rgb(4, 4, 4);
     height: 650vh;
     width: 102vw;
     background-position: 0% 700%;
@@ -1072,7 +1072,7 @@ code {
   position: relative;
   border-radius: 2%;
   overflow: hidden;
-  box-shadow: 0px 0px 8px rgba(210, 168, 168, 0.7);
+  box-shadow: 0px 0px 15px rgba(187, 138, 236, 0.7);
   grid-column: 3;
   grid-row: 1;
   width: 90%;
@@ -1093,7 +1093,7 @@ code {
     position: relative;
     border-radius: 2%;
     overflow: hidden;
-    box-shadow: 0px 0px 8px rgba(216, 191, 191, 0.6);
+    box-shadow: 0px 0px 15px rgba(187, 138, 236, 0.7);
     grid-column: 1;
     grid-row: 2;
     width: 90%;
@@ -1116,7 +1116,7 @@ code {
     position: relative;
     border-radius: 2%;
     overflow: hidden;
-    box-shadow: 0px 0px 8px rgba(216, 191, 191, 0.6);
+    box-shadow: 0px 0px 15px rgba(187, 138, 236, 0.7);
     grid-column: 1;
     grid-row: 3;
     width: 90%;
@@ -1187,7 +1187,7 @@ code {
   position: relative;
   border-radius: 2%;
   overflow: hidden;
-  box-shadow: 0px 0px 8px rgba(210, 168, 168, 0.7);
+  box-shadow: 0px 0px 15px rgba(187, 138, 236, 0.7);
   grid-column: 2;
   grid-row: 1;
   width: 90%;
@@ -1213,7 +1213,7 @@ code {
     position: relative;
     border-radius: 2%;
     overflow: hidden;
-    box-shadow: 0px 0px 8px rgba(216, 191, 191, 0.6);
+    box-shadow: 0px 0px 15px rgba(187, 138, 236, 0.7);
     grid-column: 2;
     grid-row: 1;
     width: 90%;
@@ -1235,7 +1235,7 @@ code {
     position: relative;
     border-radius: 2%;
     overflow: hidden;
-    box-shadow: 0px 0px 8px rgba(216, 191, 191, 0.6);
+    box-shadow: 0px 0px 15px rgba(187, 138, 236, 0.7);
     grid-column: 1;
     grid-row: 2;
     width: 90%;
@@ -1287,7 +1287,7 @@ code {
 /* Adjusted styling for row-four content */
 .firealertrow-four div {
   background-color: black;
-  color: rgb(210, 168, 168);
+  color: rgb(214, 180, 237);
   display: inline-block;
   margin: 5px;
   padding: 5px;
@@ -1296,27 +1296,27 @@ code {
 }
 
 .firealert-name {
-  color: rgb(210, 168, 168);
+  color: rgb(187, 138, 236);
 }
 
 .thriftaid-name {
-  color: rgb(210, 168, 168);
+  color: rgb(187, 138, 236);
 }
 
 .gradient-name {
-  color: rgb(210, 168, 168);
+  color: rgb(187, 138, 236);
 }
 
 .albertaloop-name {
-  color: rgb(210, 168, 168);
+  color: rgb(187, 138, 236);
 }
 
 .ecoeats-name {
-  color: rgb(210, 168, 168);
+  color: rgb(187, 138, 236);
 }
 
 .voltscript-name {
-  color: rgb(210, 168, 168);
+  color: rgb(187, 138, 236); 
 }
 
 .thriftaid-container.hovered .thriftaid-name {
@@ -1378,7 +1378,7 @@ code {
   position: relative;
   border-radius: 2%;
   overflow: hidden;
-  box-shadow: 0px 0px 8px rgba(210, 168, 168, 0.7);
+  box-shadow: 0px 0px 15px rgba(187, 138, 236, 0.7);
   grid-column: 1;
   grid-row: 1;
   width: 90%;
@@ -1395,7 +1395,7 @@ code {
     position: relative;
     border-radius: 2%;
     overflow: hidden;
-    box-shadow: 0px 0px 8px rgba(216, 191, 191, 0.6);
+    box-shadow: 0px 0px 15px rgba(187, 138, 236, 0.7);
     grid-column: 1;
     grid-row: 1;
     width: 90%;
@@ -1413,7 +1413,7 @@ code {
     position: relative;
     border-radius: 2%;
     overflow: hidden;
-    box-shadow: 0px 0px 8px rgba(216, 191, 191, 0.6);
+    box-shadow: 0px 0px 15px rgba(187, 138, 236, 0.7);
     grid-column: 1;
     grid-row: 1;
     width: 90%;
@@ -1457,7 +1457,7 @@ code {
   position: relative;
   border-radius: 2%;
   overflow: hidden;
-  box-shadow: 0px 0px 8px rgba(210, 168, 168, 0.7);
+  box-shadow: 0px 0px 15px rgba(187, 138, 236, 0.7);
   grid-column: 1;
   grid-row: 2;
   width: 90%;
@@ -1479,7 +1479,7 @@ code {
     position: relative;
     border-radius: 2%;
     overflow: hidden;
-    box-shadow: 0px 0px 8px rgba(216, 191, 191, 0.6);
+    box-shadow: 0px 0px 15px rgba(187, 138, 236, 0.7);
     grid-column: 2;
     grid-row: 2;
     width: 90%;
@@ -1498,7 +1498,7 @@ code {
     position: relative;
     border-radius: 2%;
     overflow: hidden;
-    box-shadow: 0px 0px 8px rgba(216, 191, 191, 0.6);
+    box-shadow: 0px 0px 15px rgba(187, 138, 236, 0.7);
     grid-column: 1;
     grid-row: 4;
     width: 90%;
@@ -1527,7 +1527,7 @@ code {
   position: relative;
   border-radius: 2%;
   overflow: hidden;
-  box-shadow: 0px 0px 8px rgba(210, 168, 168, 0.7);
+  box-shadow: 0px 0px 15px rgba(187, 138, 236, 0.7);
   grid-column: 2;
   grid-row: 2;
   width: 90%;
@@ -1546,7 +1546,7 @@ code {
     position: relative;
     border-radius: 2%;
     overflow: hidden;
-    box-shadow: 0px 0px 8px rgba(216, 191, 191, 0.6);
+    box-shadow: 0px 0px 15px rgba(187, 138, 236, 0.7);
     grid-column: 1;
     grid-row: 3;
     width: 90%;
@@ -1570,7 +1570,7 @@ code {
     position: relative;
     border-radius: 2%;
     overflow: hidden;
-    box-shadow: 0px 0px 8px rgba(216, 191, 191, 0.6);
+    box-shadow: 0px 0px 15px rgba(187, 138, 236, 0.7);
     grid-column: 1;
     grid-row: 5;
     width: 90%;
@@ -1594,7 +1594,7 @@ code {
   position: relative;
   border-radius: 2%;
   overflow: hidden;
-  box-shadow: 0px 0px 8px rgba(210, 168, 168, 0.7);
+  box-shadow: 0px 0px 15px rgba(187, 138, 236, 0.7);
   grid-column: 3;
   grid-row: 2;
   width: 90%;
@@ -1616,7 +1616,7 @@ code {
     position: relative;
     border-radius: 2%;
     overflow: hidden;
-    box-shadow: 0px 0px 8px rgba(216, 191, 191, 0.6);
+    box-shadow: 0px 0px 15px rgba(187, 138, 236, 0.7);
     grid-column: 2;
     grid-row: 3;
     width: 90%;
@@ -1639,7 +1639,7 @@ code {
     position: relative;
     border-radius: 2%;
     overflow: hidden;
-    box-shadow: 0px 0px 8px rgba(216, 191, 191, 0.6);
+    box-shadow: 0px 0px 15px rgba(187, 138, 236, 0.7);
     grid-column: 1;
     grid-row: 6;
     width: 90%;
@@ -1701,7 +1701,7 @@ code {
 
 .fourth-page {
   display: grid;
-  background: rgb(6, 6, 6);
+  background: rgb(0, 0, 0);
   height: 280vh;
   background-position: 0% 700%;
   grid-row: 3;
@@ -1714,7 +1714,7 @@ code {
   grid-column: 2;
   grid-row: 2;
   grid-template-columns: 0.001fr 1fr 0.1fr;
-  grid-template-rows: 0.55fr 0.55fr 0.45fr 0.1fr 0.2fr;
+  grid-template-rows: 0.65fr 0.55fr 0.45fr 0.1fr 0.2fr;
 }
 
 .president-container {
