@@ -202,9 +202,9 @@ code {
 .icon-menu {
     /* Positioning */
     position: fixed;
-    top:35%;
+    top: 35%;
     width: 4%; /* Set the width of the rectangle */
-    height: 38%; /* Set the height of the rectangle */
+    height: 40%; /* Set the height of the rectangle */
   
     background: rgba(41, 41, 41, 0.27);
     backdrop-filter: blur(0.7px);
@@ -234,6 +234,7 @@ code {
   .icon-menu {
     width: 7%;
     top: 30%;
+    height: 35%;
   }
 }
 
@@ -246,14 +247,14 @@ code {
 .linkedinlogo {
   position: relative;
   width: 86.5%;
-  top: 26%;
+  top: 18%;
   right: 0.2%;
   grid-row: 2;
 }
 
 .emaillogo {
   position: relative;
-  top: 40.5%;
+  top: 27.5%;
   width: 78%;
   height: 58%;
   right: -1%;
@@ -262,11 +263,11 @@ code {
 
 .cvlogo {
   position: relative;
-  top: 40.5%;
-  width: 98%;
-  height: 98%;
-  right: -1%;
-  grid-row: 4;
+  top: 32.5%;
+  width: 99%;
+  height: 78%;
+  right: -11%;
+  grid-row: 3;
 }
 
 .glow-on-hover:hover {
