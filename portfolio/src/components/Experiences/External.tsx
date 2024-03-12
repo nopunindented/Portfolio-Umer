@@ -6,7 +6,7 @@ const External: React.FC = () => {
     <>
       <div className="external-container">
         <div className="president-position">VP External</div>
-        <div className="president-date">May 2023 - May 2024</div>
+        <div className="president-date">MAY 2023 - MAY 2024</div>
         <div className="president-club">UofA Computer Engineering Club</div>
         <ul className="president-points">
             <li>Launched initiatives such as the University of Alberta's first ever AI & cloud conference and hybrid technical career fair - Aether.</li>

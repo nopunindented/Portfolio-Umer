@@ -6,7 +6,7 @@ const Software: React.FC = () => {
     <>
       <div className="software-container">
         <div className="president-position">Software Team Member</div>
-        <div className="president-date">August 2022 - November 2022</div>
+        <div className="president-date">AUGUST 2022 - NOVEMBER 2022</div>
         <div className="president-club">UofA Computer Engineering Club</div>
         <ul className="president-points">
             <li>Led implementation of UDP connection between client’s UI application and C++ program running on a Teensy 4.1.</li>
