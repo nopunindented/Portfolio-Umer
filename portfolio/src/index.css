@@ -523,7 +523,7 @@ code {
 }
 
 .dayforce-points.visible {
-  opacity: 1; /* Show the points when they become visible */
+  opacity: 1;
 }
 
 @media (max-width: 896px) {
@@ -707,6 +707,12 @@ code {
   grid-row: 2;
   grid-column: 1;
   margin: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.subnet-points.visible {
+  opacity: 1;
 }
 
 @media (max-width: 896px) {
@@ -801,6 +807,12 @@ code {
   grid-row: 2;
   grid-column: 1;
   margin: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.uni-points.visible {
+  opacity: 1;
 }
 
 @media (max-width: 896px) {
@@ -900,6 +912,12 @@ code {
   grid-row: 2;
   grid-column: 1;
   margin: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.painworth-points.visible {
+  opacity: 1;
 }
 
 @media (max-width: 896px) {

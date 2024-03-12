@@ -11,7 +11,7 @@ const Dayforce: React.FC = () => {
       const containerHeight = container.clientHeight;
       const scrollPosition = window.scrollY;
       const containerTop = container.getBoundingClientRect().top;
-      const triggerPosition = containerTop + containerHeight * 0.1;
+      const triggerPosition = containerTop + containerHeight * 0.01;
 
       if (scrollPosition > triggerPosition) {
         setIsVisible(true);
