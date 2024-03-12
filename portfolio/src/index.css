@@ -204,7 +204,7 @@ code {
     position: fixed;
     top:35%;
     width: 4%; /* Set the width of the rectangle */
-    height: 28%; /* Set the height of the rectangle */
+    height: 38%; /* Set the height of the rectangle */
   
     background: rgba(41, 41, 41, 0.27);
     backdrop-filter: blur(0.7px);
@@ -219,7 +219,7 @@ code {
     font-size: 90%;
     font-weight: 600;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-column: 1;
     grid-row: 3;
 }
@@ -258,6 +258,15 @@ code {
   height: 58%;
   right: -1%;
   grid-row: 3;
+}
+
+.cvlogo {
+  position: relative;
+  top: 40.5%;
+  width: 98%;
+  height: 98%;
+  right: -1%;
+  grid-row: 4;
 }
 
 .glow-on-hover:hover {

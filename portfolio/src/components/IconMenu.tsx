@@ -2,6 +2,7 @@ import React from "react";
 import gitlogo from "./github.svg";
 import linkedin from "./linkedin.svg";
 import email from "./email.svg";
+import cv from "./cv.svg"
 
 const IconMenu: React.FC = () => {
   return (
@@ -15,6 +16,9 @@ const IconMenu: React.FC = () => {
         </a>
         <a href="mailto:mufiaz@ualberta.ca">
           <img src={email} className="emaillogo glow-on-hover" alt="emaillogo" />
+        </a>
+        <a href="/DayforceResume.pdf" target="_blank" rel="noreferrer">
+          <img src={cv} className="cvlogo glow-on-hover" alt="cvlogo" />
         </a>
       </div>
     </>
