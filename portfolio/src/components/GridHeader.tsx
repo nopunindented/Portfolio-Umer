@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./header.css";
+import "./../index.css";
 import Hamburger from "hamburger-react";
 
 interface ScreenSizeState {
