@@ -8,7 +8,7 @@ import Software from '../components/Experiences/Software';
 const FourthPage: React.FC = () => {
   return (
     <>
-      <div className="fourth-page">
+      <div id="fourth" className="fourth-page">
         <div className='extra-header-container'>
           <div className="extra-header">Extracurriculars</div>
         </div>

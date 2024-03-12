@@ -39,7 +39,9 @@ const GridHeader: React.FC = () => {
           <div className="name_navbar">Muhammad Umer Fiaz</div>
           <div className="work_navbar">Work Experience</div>
           <div className="projects_navbar">Projects</div>
+          <a href="#fourth">
           <div className="extra_navbar">Extracurriculars</div>
+          </a>
         </>
       ) : (
         <>
@@ -57,11 +59,13 @@ const GridHeader: React.FC = () => {
                 >
                   Projects
                 </div>
+                <a href="#fourth">
                 <div
                   className={`extra_navbar_hamburger ${isOpen ? "open" : ""}`}
                 >
                   Extracurriculars
                 </div>
+                </a>
               </>
             ) : null}
           </div>

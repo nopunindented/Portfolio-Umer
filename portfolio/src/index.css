@@ -2682,6 +2682,10 @@ code {
   margin-left: 10px;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Extra media query */
 @media (max-width: 1024px) {
   .extra_navbar {
