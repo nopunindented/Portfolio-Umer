@@ -1726,7 +1726,7 @@ code {
   grid-column: 2;
   grid-row: 2;
   grid-template-columns: 0.001fr 1fr 0.1fr;
-  grid-template-rows: 0.68fr 0.62fr 0.53fr 0.4fr 0.2fr;
+  grid-template-rows: 0.7fr 0.62fr 0.53fr 0.4fr 0.2fr;
 }
 
 @media (max-width: 726px) {
@@ -2148,7 +2148,7 @@ code {
 
 @media (max-width: 518px) {
   .president-container {
-    font-size: 85%;
+    font-size: 85.5%;
     left: -5%;
   }
 
