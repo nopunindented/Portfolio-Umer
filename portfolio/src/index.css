@@ -518,6 +518,12 @@ code {
   grid-row: 2;
   grid-column: 1;
   margin: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.dayforce-points.visible {
+  opacity: 1; /* Show the points when they become visible */
 }
 
 @media (max-width: 896px) {
@@ -1734,6 +1740,7 @@ code {
   grid-row: 3;
   grid-template-columns: 0.1fr 7fr 0.1fr;
   grid-template-rows: 0.2fr 0.9fr;
+  border-bottom: 1px solid #3b3b3b; /* Add a 1px solid gray border */
 }
 
 @media (max-width: 1067) {
