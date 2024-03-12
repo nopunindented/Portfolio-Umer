@@ -287,9 +287,9 @@ code {
 
   mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
   mask-size: 200%;
-  animation: shine 1.7s infinite;
+  animation: shine 1.9s infinite;
 
-  background: #b1b1b1;
+  background: #ffffff;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -1705,8 +1705,20 @@ code {
   height: 280vh;
   background-position: 0% 700%;
   grid-row: 3;
-  grid-template-columns: 0.01fr 7fr 0.1fr;
+  grid-template-columns: 0.1fr 7fr 0.1fr;
   grid-template-rows: 0.25fr 0.9fr;
+}
+
+@media (max-width: 1067) {
+  .fourth-page {
+    display: grid;
+    background: rgb(1, 1, 1);
+    height: 280vh;
+    background-position: 0% 700%;
+    grid-row: 3;
+    grid-template-columns: 0.01fr 7fr 0.1fr;
+    grid-template-rows: 0.25fr 0.9fr;
+  }
 }
 
 .extracurricular-container {
@@ -1714,7 +1726,7 @@ code {
   grid-column: 2;
   grid-row: 2;
   grid-template-columns: 0.001fr 1fr 0.1fr;
-  grid-template-rows: 0.65fr 0.55fr 0.45fr 0.1fr 0.2fr;
+  grid-template-rows: 0.7fr 0.55fr 0.45fr 0.1fr 0.2fr;
 }
 
 .president-container {
@@ -1796,28 +1808,28 @@ code {
 }
 
 .parent-circle-container {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   position: relative;
   grid-column: 1;
   grid-row: 1;
-  left: 4%;
+  left: 0%;
 }
 
 .parent-circle2-container {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   position: relative;
   grid-column: 1;
   grid-row: 2;
-  left: 4%;
+  left: 0%;
 }
 
 .first-circle {
   position: relative;
   left: 91%;
-  width: 10%;
-  height: 10%;
+  width: 20%;
+  height: 20%;
   border-radius: 50%;
   background-color: #9942cf;
   box-shadow:
@@ -1840,12 +1852,12 @@ code {
 
 .parent-circle3-container {
   /* Set a fixed aspect ratio for the parent container */
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   position: relative;
   grid-column: 1;
   grid-row: 3;
-  left: 4%;
+  left: 0%;
 }
 
 .software-container {
@@ -1863,10 +1875,10 @@ code {
 
 .parent-circle4-container {
   /* Set a fixed aspect ratio for the parent container */
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   position: relative;
   grid-column: 1;
   grid-row: 4;
-  left: 4%;
+  left: 0%;
 }
