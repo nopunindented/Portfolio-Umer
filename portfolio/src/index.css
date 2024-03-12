@@ -1729,6 +1729,30 @@ code {
   grid-template-rows: 0.68fr 0.55fr 0.43fr 0.1fr 0.2fr;
 }
 
+@media (max-width: 726px) {
+  .extracurricular-container {
+    grid-template-rows: 0.73fr 0.55fr 0.43fr 0.1fr 0.2fr;
+  }
+}
+
+@media (max-width: 695px) {
+  .extracurricular-container {
+    grid-template-rows: 0.78fr 0.55fr 0.43fr 0.1fr 0.2fr;
+  }
+}
+
+@media (max-width: 674px) {
+  .extracurricular-container {
+    grid-template-rows: 0.8fr 0.55fr 0.43fr 0.1fr 0.2fr;
+  }
+}
+
+@media (max-width: 653px) {
+  .extracurricular-container {
+    grid-template-rows: 0.84fr 0.59fr 0.43fr 0.1fr 0.2fr;
+  }
+}
+
 .president-container {
   display: grid;
   position: relative;
@@ -1883,6 +1907,159 @@ code {
   left: 0%;
 }
 
+@media (max-width: 633px) {
+  .president-container {
+    font-size: 95%;
+    left: -5%;
+  }
+
+  .external-container {
+    font-size: 95%;
+    left: -5%;
+  }
+
+  .rep-container {
+    font-size: 95%;
+    left: -5%;
+  }
+
+  .software-container {
+    font-size: 93%;
+    left: -5%;
+  }
+
+  .extracurricular-container {
+    grid-template-columns: 0.001fr 1.5fr 0.1fr;
+  }
+  .parent-circle-container {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    grid-column: 1;
+    grid-row: 1;
+    left: 0%;
+  }
+  
+  .parent-circle2-container {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    grid-column: 1;
+    grid-row: 2;
+    left: 0%;
+  }
+  
+  .first-circle {
+    position: relative;
+    left: 66.8%;
+    width: 21%;
+    height: 21%;
+    border-radius: 50%;
+    background-color: #9942cf;
+    box-shadow:
+      0 0 60px 0px #9942cf,
+      0 0 100px 8px #9942cf,
+      0 0 140px 18px #9942cf;
+  }
+  
+  .parent-circle3-container {
+    /* Set a fixed aspect ratio for the parent container */
+    width: 100px;
+    height: 100px;
+    position: relative;
+    grid-column: 1;
+    grid-row: 3;
+    left: 0%;
+  }
+  
+  .parent-circle4-container {
+    /* Set a fixed aspect ratio for the parent container */
+    width: 100px;
+    height: 100px;
+    position: relative;
+    grid-column: 1;
+    grid-row: 4;
+    left: 0%;
+  }
+}
+
+@media (max-width: 584px) {
+  .president-container {
+    font-size: 95%;
+    left: -5%;
+  }
+
+  .external-container {
+    font-size: 95%;
+    left: -5%;
+  }
+
+  .rep-container {
+    font-size: 95%;
+    left: -5%;
+  }
+
+  .software-container {
+    font-size: 93%;
+    left: -5%;
+  }
+
+  .extracurricular-container {
+    grid-template-columns: 0.001fr 1.5fr 0.1fr;
+  }
+  .parent-circle-container {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    grid-column: 1;
+    grid-row: 1;
+    left: 0%;
+  }
+  
+  .parent-circle2-container {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    grid-column: 1;
+    grid-row: 2;
+    left: 0%;
+  }
+  
+  .first-circle {
+    position: relative;
+    left: 60.8%;
+    width: 25%;
+    height: 25%;
+    top: -0.5%;
+    border-radius: 50%;
+    background-color: #9942cf;
+    box-shadow:
+      0 0 60px 0px #9942cf,
+      0 0 100px 8px #9942cf,
+      0 0 140px 18px #9942cf;
+  }
+  
+  .parent-circle3-container {
+    /* Set a fixed aspect ratio for the parent container */
+    width: 80px;
+    height: 80px;
+    position: relative;
+    grid-column: 1;
+    grid-row: 3;
+    left: 0%;
+  }
+  
+  .parent-circle4-container {
+    /* Set a fixed aspect ratio for the parent container */
+    width: 80px;
+    height: 80px;
+    position: relative;
+    grid-column: 1;
+    grid-row: 4;
+    left: 0%;
+  }
+}
+
 .extra-header-container {
   display: grid;
   grid-template-columns: 0.5fr 1fr 0.5fr;
@@ -1944,8 +2121,345 @@ code {
   }
 }
 
+@media (max-width: 584px) {
+  .fourth-page {
+    grid-template-rows: 0.1fr 0.9fr;
+  }
+
+  .extra-header-container {
+    display: grid;
+    grid-template-columns: 0.6fr 1fr 0.5fr;
+    grid-column: 2;
+    grid-template-rows: 1fr;
+  }
+}
+
 @media (max-width: 456px) {
   .extra-header {
     font-size: 200%;
+  }
+}
+
+@media (max-width: 518px) {
+  .president-container {
+    font-size: 85%;
+    left: -5%;
+  }
+
+  .external-container {
+    font-size: 85%;
+    left: -5%;
+  }
+
+  .rep-container {
+    font-size: 85%;
+    left: -5%;
+  }
+
+  .software-container {
+    font-size: 85%;
+    left: -5%;
+  }
+
+  .extracurricular-container {
+    grid-template-columns: 0.001fr 1.5fr 0.1fr;
+  }
+  .parent-circle-container {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    grid-column: 1;
+    grid-row: 1;
+    left: 0%;
+  }
+  
+  .parent-circle2-container {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    grid-column: 1;
+    grid-row: 2;
+    left: 0%;
+  }
+  
+  .first-circle {
+    position: relative;
+    left: 60.8%;
+    margin-left: 3%;
+    width: 25%;
+    height: 25%;
+    top: -0.5%;
+    border-radius: 50%;
+    background-color: #9942cf;
+    box-shadow:
+      0 0 60px 0px #9942cf,
+      0 0 100px 8px #9942cf,
+      0 0 140px 18px #9942cf;
+  }
+  
+  .parent-circle3-container {
+    /* Set a fixed aspect ratio for the parent container */
+    width: 80px;
+    height: 80px;
+    position: relative;
+    grid-column: 1;
+    grid-row: 3;
+    left: 0%;
+  }
+  
+  .parent-circle4-container {
+    /* Set a fixed aspect ratio for the parent container */
+    width: 80px;
+    height: 80px;
+    position: relative;
+    grid-column: 1;
+    grid-row: 4;
+    left: 0%;
+  }
+}
+
+@media (max-width: 482px) {
+  .president-container {
+    font-size: 82%;
+    left: -5%;
+  }
+
+  .external-container {
+    font-size: 82%;
+    left: -5%;
+  }
+
+  .rep-container {
+    font-size: 82%;
+    left: -5%;
+  }
+
+  .software-container {
+    font-size: 82%;
+    left: -5%;
+  }
+
+  .extracurricular-container {
+    grid-template-columns: 0.001fr 1.5fr 0.1fr;
+  }
+  .parent-circle-container {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    grid-column: 1;
+    grid-row: 1;
+    left: 0%;
+  }
+  
+  .parent-circle2-container {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    grid-column: 1;
+    grid-row: 2;
+    left: 0%;
+  }
+  
+  .first-circle {
+    position: relative;
+    left: 60.8%;
+    margin-left: 6%;
+    width: 25%;
+    height: 25%;
+    top: -0.5%;
+    border-radius: 50%;
+    background-color: #9942cf;
+    box-shadow:
+      0 0 60px 0px #9942cf,
+      0 0 100px 8px #9942cf,
+      0 0 140px 18px #9942cf;
+  }
+  
+  .parent-circle3-container {
+    /* Set a fixed aspect ratio for the parent container */
+    width: 80px;
+    height: 80px;
+    position: relative;
+    grid-column: 1;
+    grid-row: 3;
+    left: 0%;
+  }
+  
+  .parent-circle4-container {
+    /* Set a fixed aspect ratio for the parent container */
+    width: 80px;
+    height: 80px;
+    position: relative;
+    grid-column: 1;
+    grid-row: 4;
+    left: 0%;
+  }
+
+  .fourth-page {
+    grid-template-columns: 0.1fr 7fr 0.1fr;
+  }
+}
+
+@media (max-width: 408px) {
+  .president-container {
+    font-size: 82%;
+    left: -5%;
+  }
+
+  .external-container {
+    font-size: 82%;
+    left: -5%;
+  }
+
+  .rep-container {
+    font-size: 82%;
+    left: -5%;
+  }
+
+  .software-container {
+    font-size: 82%;
+    left: -5%;
+  }
+
+  .extracurricular-container {
+    grid-template-columns: 0.001fr 1.5fr 0.1fr;
+  }
+  .parent-circle-container {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    grid-column: 1;
+    grid-row: 1;
+    left: 0%;
+  }
+  
+  .parent-circle2-container {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    grid-column: 1;
+    grid-row: 2;
+    left: 0%;
+  }
+  
+  .first-circle {
+    position: relative;
+    left: 60.8%;
+    margin-left: 9%;
+    width: 25%;
+    height: 25%;
+    top: -0.5%;
+    border-radius: 50%;
+    background-color: #9942cf;
+    box-shadow:
+      0 0 60px 0px #9942cf,
+      0 0 100px 8px #9942cf,
+      0 0 140px 18px #9942cf;
+  }
+  
+  .parent-circle3-container {
+    /* Set a fixed aspect ratio for the parent container */
+    width: 80px;
+    height: 80px;
+    position: relative;
+    grid-column: 1;
+    grid-row: 3;
+    left: 0%;
+  }
+  
+  .parent-circle4-container {
+    /* Set a fixed aspect ratio for the parent container */
+    width: 80px;
+    height: 80px;
+    position: relative;
+    grid-column: 1;
+    grid-row: 4;
+    left: 0%;
+  }
+
+  .fourth-page {
+    grid-template-columns: 0.14fr 7fr 0.1fr;
+  }
+}
+
+@media (max-width: 355px) {
+  .president-container {
+    font-size: 82%;
+    left: -5%;
+  }
+
+  .external-container {
+    font-size: 82%;
+    left: -5%;
+  }
+
+  .rep-container {
+    font-size: 82%;
+    left: -5%;
+  }
+
+  .software-container {
+    font-size: 82%;
+    left: -5%;
+  }
+
+  .extracurricular-container {
+    grid-template-columns: 0.001fr 1.5fr 0.1fr;
+  }
+  .parent-circle-container {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    grid-column: 1;
+    grid-row: 1;
+    left: 0%;
+  }
+  
+  .parent-circle2-container {
+    width: 80px;
+    height: 80px;
+    position: relative;
+    grid-column: 1;
+    grid-row: 2;
+    left: 0%;
+  }
+  
+  .first-circle {
+    position: relative;
+    left: 60.8%;
+    margin-left: 9%;
+    width: 25%;
+    height: 25%;
+    top: -0.5%;
+    border-radius: 50%;
+    background-color: #9942cf;
+    box-shadow:
+      0 0 60px 0px #9942cf,
+      0 0 100px 8px #9942cf,
+      0 0 140px 18px #9942cf;
+  }
+  
+  .parent-circle3-container {
+    /* Set a fixed aspect ratio for the parent container */
+    width: 80px;
+    height: 80px;
+    position: relative;
+    grid-column: 1;
+    grid-row: 3;
+    left: 0%;
+  }
+  
+  .parent-circle4-container {
+    /* Set a fixed aspect ratio for the parent container */
+    width: 80px;
+    height: 80px;
+    position: relative;
+    grid-column: 1;
+    grid-row: 4;
+    left: 0%;
+  }
+
+  .fourth-page {
+    grid-template-columns: 0.14fr 7fr 0.1fr;
   }
 }
