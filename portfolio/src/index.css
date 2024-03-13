@@ -40,7 +40,7 @@ code {
   background-size: 400% 400%;
   animation: gradient 20s ease infinite;
   height: 120vh;
-  grid-template-columns: 0.86fr 3fr 0.4fr;
+  grid-template-columns: 0.865fr 3fr 0.4fr;
   grid-template-rows: 0.4fr 0.5fr 1.5fr 1fr;
   border-bottom: 1px solid #3b3b3b;
 }
