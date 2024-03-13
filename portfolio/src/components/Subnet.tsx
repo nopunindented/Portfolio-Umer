@@ -23,7 +23,7 @@ const Subnet: React.FC = () => {
     <>
       <div className="subnet-container">
         <div className="dayforce-name">SUBNET Solutions</div>
-        <div className="dayforce-date">May 2024 - Present</div>
+        <div className="subnet-date2">January 2024 - Present</div>
         <div className="dayforce-position">Software Developer Intern</div>
         <ul className={`subnet-points ${isVisible ? "visible" : ""}`}>
           <li>Devising Python AI microservice for querying data on 4 million sensory devices for 300+ companies, using Langchain and Django.</li>
