@@ -5,11 +5,10 @@ const President: React.FC = () => {
   return (
     <>
       <div className="president-container">
-        <div className="president-position">(Prospective) President</div>
-        <div className="president-date">HOPEFULLY @APRIL 2024</div>
+        <div className="president-position">President</div>
+        <div className="president-date">APRIL 2024 - PRESENT</div>
         <div className="president-club">UofA Computer Engineering Club</div>
         <ul className="president-points">
-            <li>Co-running for President in the 2024 CompE Club election.</li>
             <li>Plan to greatly increase financial transparency across the club, especially in HackED & Geer Week.</li>
             <li>Will replace most current junior exec roles by giving each portfolio 2-4 "officer" roles that are interview-based, in order to ensure greater committment.</li>
             <li>Aiming for complete club financial self-sufficiency through greatly increasing number of sponsors at our major events - Aether & HackED.</li>
